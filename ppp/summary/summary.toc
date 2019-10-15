@@ -1,0 +1,22 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {0.1}Flow Solutions, id 0}{2}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Solution 0}{2}{subsection.0.1.1}
+\contentsline {subsubsection}{Overall Data}{2}{section*.2}
+\contentsline {subsubsection}{Filtered Graph}{2}{section*.3}
+\contentsline {subsection}{\numberline {0.1.2}Solution 1}{3}{subsection.0.1.2}
+\contentsline {subsubsection}{Overall Data}{3}{section*.4}
+\contentsline {subsubsection}{Filtered Graph}{4}{section*.5}
+\contentsline {section}{\numberline {0.2}Catalyst p\_\{0,4\}}{6}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}DG Hyper, \texttt {dg\_0}}{6}{subsection.0.2.1}
+\contentsline {section}{\numberline {0.3}Catalyst p\_\{0,8\}}{7}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}DG Hyper, \texttt {dg\_0}}{7}{subsection.0.3.1}
+\contentsline {section}{\numberline {0.4}Catalyst p\_\{0,10\}}{9}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}DG Hyper, \texttt {dg\_0}}{9}{subsection.0.4.1}
+\contentsline {section}{\numberline {0.5}Catalyst p\_\{0,16\}}{12}{section.0.5}
+\contentsline {subsection}{\numberline {0.5.1}DG Hyper, \texttt {dg\_0}}{12}{subsection.0.5.1}
+\contentsline {section}{\numberline {0.6}Catalyst p\_\{0,17\}}{15}{section.0.6}
+\contentsline {subsection}{\numberline {0.6.1}DG Hyper, \texttt {dg\_0}}{15}{subsection.0.6.1}
+\contentsline {section}{\numberline {0.7}Catalyst p\_\{0,16\}}{18}{section.0.7}
+\contentsline {subsection}{\numberline {0.7.1}DG Hyper, \texttt {dg\_0}}{18}{subsection.0.7.1}
+\contentsline {section}{\numberline {0.8}Catalyst p\_\{0,26\}}{21}{section.0.8}
+\contentsline {subsection}{\numberline {0.8.1}DG Hyper, \texttt {dg\_0}}{21}{subsection.0.8.1}

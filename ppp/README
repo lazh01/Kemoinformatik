@@ -1,0 +1,117 @@
+dg.py:
+-------
+1.) Loads the grammar
+2.) Defines a strategy for expanding the chemical space:
+    add ribuloseP and water, then apply all rules to create all
+    molecules with <= 8 carbon atoms and all reactions between
+    them
+3.) Computes the derivation graph
+
+dgStrict.py:
+-------------
+same thing as above, but a stricter rule of how to expand the chemical space:
+
+strat = (addUniverse(water) >> addSubset(ribuloseP)
+	>> aldoKetoF >> transKeto
+	>> {
+		transAldo >> transKeto,
+		aldoKetoB >> aldolase >> phosphohydro
+	})
+
+Add water and ribuloseP, then apply aldoKetoF, then transKeto. After 
+that apply the sequence of "transAldo -> transKeto" and the sequence
+of "aldoKetoB -> aldolase -> phosphohydro" in parallel.
+
+dgRepeat.mod:
+-------------
+same as dg.mod, but expects a variable "steps" to be defined. This line:
+
+dg = dgRuleComp(g, addSubset(ribuloseP, water)
+	>> repeat[steps](r)
+	)
+
+allows to expand the chemical space with all rules loaded "steps"
+times.  "steps" will be defined on the command line (see below).
+
+
+pathway.py
+-----------
+For finding a pathway in the chemical space we have to define a pathway
+(or a specific "autocatalytic" pathway). This pathway (variable flow 
+below) will have 2 sources: ribuloseP, water. After that we define
+how many of these molecules are provided. The "addSinks" defines the 
+sink (the solver will try to maximize the outflow for this compound).
+We allow anything else also to be a sink by
+  for a in dg.vertexGraphs: flow.addSink(a))
+
+"flow.calc()" will try to find an optimal solution (the objective
+function tries to maximize the outflow and as a lower priority
+objective criteria to minimize the number of (hyper)edges used.
+"flow.listSolutions" prints information for the solutions on 
+the terminal.
+
+
+config.ilp.solverVerbose = True
+flow = dgFlow(dg)
+flow.addSource(ribuloseP)
+flow.addSource(water)
+flow.addConstraint(inFlow(ribuloseP) == 6)
+flow.addConstraint(inFlow(water) == 1)
+flow.addSink(fructoseP)
+flow.addConstraint(outFlow(fructoseP) >= 1)
+flow.objectiveFunction = -outFlow(fructoseP)
+for a in dg.vertexGraphs: flow.addSink(a)
+flow.calc()
+flow.solutions.list()
+
+
+printStuff.py
+--------------
+This will define how the report will look like.
+
+postSection("Loaded Graphs") 
+                        : will create a section in the pdf.
+
+for a in g: a.print()   : will print all the input graphs as structure diagrams
+			  (if they are molecules), and as normal "graphs"
+
+for a in r: a.print()	: will print all the rules (as graphs
+			  and also in a more "chemical" way.
+
+dg.print();		: print the chemical space in a hypergraph
+			  and in a non-hypergraph way
+
+for a in dg.products: a.print()
+                        : print _all_ the product - be carefull!
+
+flowPrinter.printUnfiltered = False
+			: With setting this variable to "true" the solution
+			  will be highlighted and embedded in the derivation
+			  graph. If the derivation graph is large, this will
+			  make no sense.
+
+flow.solutions.print()
+	                : This prints _all_ solutions found.
+
+
+Command line examples to make the test run:
+-------------------------------------------
+1.) Strict expansion, then define the optimization problem and find the 
+    pathway, then handle the printing:
+
+    mod  -f dgStrict.py -f pathway.py -f printStuff.py
+
+2.) Apply all rules twice, dont do any optimization, just print things.
+    Printing will fail if you do not at least comment out the "flow" 
+    part as follows:
+
+    # flow.solutions.print()
+
+    mod -e 'steps=2;' -f dgRepeat.py -f printStuff.py
+
+3.) Expand the DG iteratively, until convergence (as described above,
+    however convergence won't be achieved here...),
+    solve the query, and print it. This will take ages, and you also
+    don't want to print all the products.
+
+    mod  -f dgNotGood.py -f pathway.py -f printStuff.py

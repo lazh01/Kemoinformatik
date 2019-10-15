@@ -1,0 +1,3 @@
+\select@language {english}
+\contentsline {subsection}{\numberline {0.0.1}DG Hyper, \texttt {dg\_0}}{2}{subsection.0.0.1}
+\contentsline {subsection}{\numberline {0.0.2}DG NonHyper, \texttt {dg\_0}}{3}{subsection.0.0.2}
