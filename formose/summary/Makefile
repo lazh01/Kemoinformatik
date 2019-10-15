@@ -1,5 +1,26 @@
 SHELL=/bin/bash
 summary/all.tex: gen
+	echo '\summarySection{Loaded Graphs}' >> summary/all.tex
+	echo -n '\summaryGraph' >> summary/all.tex
+	echo '{\texttt{Formaldehyde}}{\summaryGraphFile{out/000_g_0_10300000}{\texttt{out/000\_g\_0\_10300000}}}{\summaryGraphFile{out/000_g_0_11310100}{\texttt{out/000\_g\_0\_11310100}}}' >> summary/all.tex
+	echo -n '\summaryGraph' >> summary/all.tex
+	echo '{\texttt{Glycolaldehyde}}{\summaryGraphFile{out/001_g_1_10300000}{\texttt{out/001\_g\_1\_10300000}}}{\summaryGraphFile{out/001_g_1_11310100}{\texttt{out/001\_g\_1\_11310100}}}' >> summary/all.tex
+	echo '\summarySection{Loaded Rules}' >> summary/all.tex
+	echo '\summaryRule{Keto-enol isomerization -\textgreater{}}{\summaryRuleSpan{out/003_r_0_10300000}{out/003\_r\_0\_10300000}}{\summaryRuleSpan{out/004_r_0_11300100}{out/004\_r\_0\_11300100}}{\summaryRuleCombined{out/005_r_0_combined}{out/005\_r\_0\_combined}}{out/006_r_0_constraints.tex}' >> summary/all.tex
+	echo '\summaryRule{Keto-enol isomerization \textless{}-}{\summaryRuleSpan{out/008_r_1_10300000}{out/008\_r\_1\_10300000}}{\summaryRuleSpan{out/009_r_1_11300100}{out/009\_r\_1\_11300100}}{\summaryRuleCombined{out/010_r_1_combined}{out/010\_r\_1\_combined}}{out/011_r_1_constraints.tex}' >> summary/all.tex
+	echo '\summaryRule{Aldol Addition -\textgreater{}}{\summaryRuleSpan{out/013_r_2_10300000}{out/013\_r\_2\_10300000}}{\summaryRuleSpan{out/014_r_2_11300100}{out/014\_r\_2\_11300100}}{\summaryRuleCombined{out/015_r_2_combined}{out/015\_r\_2\_combined}}{out/016_r_2_constraints.tex}' >> summary/all.tex
+	echo '\summaryRule{Aldol Addition \textless{}-}{\summaryRuleSpan{out/018_r_3_10300000}{out/018\_r\_3\_10300000}}{\summaryRuleSpan{out/019_r_3_11300100}{out/019\_r\_3\_11300100}}{\summaryRuleCombined{out/020_r_3_combined}{out/020\_r\_3\_combined}}{out/021_r_3_constraints.tex}' >> summary/all.tex
+	echo '\summaryDGHyper{\texttt{dg\_0}}{out/041_dg_0_11100}{\texttt{out/041\_dg\_0\_11100}}' >> summary/all.tex
+	echo '\summarySection{Flow Solutions, id 0}' >> summary/all.tex
+	echo '\summarySubsection{Solution 0}' >> summary/all.tex
+	echo '\summarySubsubsection{Overall Data}' >> summary/all.tex
+	echo '\input{out/043_f_0_0_listing.tex}' >> summary/all.tex
+	echo '\summaryDGFlowFiltered{\texttt{dgFlow\_0, 0}}{out/045_dg_0_11100_f_0_0_filt}{\texttt{out/045\_dg\_0\_11100\_f\_0\_0\_filt}}' >> summary/all.tex
+	echo '\summarySection{Flow Solutions, id 1}' >> summary/all.tex
+	echo '\summarySubsection{Solution 0}' >> summary/all.tex
+	echo '\summarySubsubsection{Overall Data}' >> summary/all.tex
+	echo '\input{out/047_f_1_0_listing.tex}' >> summary/all.tex
+	echo '\summaryDGFlowFiltered{\texttt{dgFlow\_1, 0}}{out/049_dg_0_11100_f_1_0_filt}{\texttt{out/049\_dg\_0\_11100\_f\_1\_0\_filt}}' >> summary/all.tex
 summary.pdf: summary/all.tex
 	/mnt/Shared/jlandersen/shared/bin/../bin/mod_post --mode compileSummary
 include summary/MakefileImpl

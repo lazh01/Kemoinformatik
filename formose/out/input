@@ -55,4 +55,5 @@ def include(fName, checkDup=True, putDup=True, skipDup=True):
 			print("End of code from '", fName, "'", sep="")
 mod.include = include
 # From command line arguments
+include("doStuff.py")
 # PYTHONPATH=::/mnt/Shared/jlandersen/shared/lib:/mnt/Shared/jlandersen/shared/lib:/home/selar16/ki/formose

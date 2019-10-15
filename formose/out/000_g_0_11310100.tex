@@ -1,0 +1,8 @@
+\begin{tikzpicture}[remember picture, scale=\modGraphScale, baseline={([yshift={-0.5ex}]current bounding box)}, solid]
+\input{\modInputPrefix/out/000_g_0_mol_coord.tex}
+\node[modStyleGraphVertex, at=(\modIdPrefix v-coord-0)] (\modIdPrefix v-0) {C};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-0.west), anchor=east] (\modIdPrefix v-0-aux) {H$_{2}$};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-0-aux), text depth=.25ex] {\phantom{H$_2$}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-1)] (\modIdPrefix v-1) {O};
+\modDrawDoubleBond{1}{0}{1}{1}{}{}
+\end{tikzpicture}

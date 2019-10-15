@@ -1,0 +1,25 @@
+graph 1 10.166 6.2728
+node "0-0" 2.3222 2.2305 1.7151 0.5 Formaldehyde solid ellipse black lightgrey
+node "1-0" 9.164 4.0849 2.0035 0.56961 Glycolaldehyde solid ellipse black lightgrey
+node "9-0" 5.3578 0.71693 1.8071 1.4339 "p_{0,3}" solid ellipse black lightgrey
+node "11-0" 2.7918 5.4282 2.2392 1.6892 "p_{0,4}" solid ellipse black lightgrey
+node "23-0" 1.1196 4.0264 2.2392 1.6892 "p_{0,8}" solid ellipse black lightgrey
+node "28-0" 6.6892 5.0167 2.357 1.4339 "p_{0,10}" solid ellipse black lightgrey
+node "27-0" 3.4786 0.82458 0.98611 0.5 "f 1, r_{2}" solid box black lightgrey
+node "29-0" 4.4098 3.6106 0.98611 0.5 "f 1, r_{2}" solid box black lightgrey
+node "51-0" 6.8155 1.8039 0.98611 0.5 "f 1, r_{3}" solid box black lightgrey
+node "0-0-IOFlow" 1.082 0.81785 0.05 0.05 "" invis point black lightgrey
+node "1-0-IOFlow" 9.0768 0.87376 0.05 0.05 "" invis point black lightgrey
+edge "0-0" "27-0" 4 2.5236 1.9856 2.7054 1.7645 2.9753 1.4365 3.1818 1.1854 solid black
+edge "0-0" "29-0" 4 2.6716 2.4615 3.011 2.6858 3.5295 3.0287 3.912 3.2815 solid black
+edge "1-0" "1-0-IOFlow" 4 9.1562 3.7999 9.1385 3.1479 9.0955 1.5636 9.0814 1.0428 "f 1" 9.0077 2.5255 solid black
+edge "9-0" "27-0" 4 4.4512 0.76886 4.3363 0.77544 4.2208 0.78206 4.1115 0.78832 solid black
+edge "11-0" "29-0" 4 3.4174 4.7255 3.6476 4.4669 3.8987 4.1848 4.0908 3.9691 solid black
+edge "23-0" "11-0" 4 1.8725 4.6576 1.8916 4.6736 1.9108 4.6896 1.9299 4.7057 "f 1, r_{0}" 2.2832 4.5775 solid black
+edge "28-0" "51-0" 4 6.7174 4.2997 6.7429 3.6516 6.7794 2.7216 6.8 2.1991 solid black
+edge "27-0" "23-0" 4 3.2934 1.0758 2.9652 1.5213 2.2672 2.4687 1.7503 3.1704 solid black
+edge "29-0" "28-0" 4 4.8173 3.862 5.0739 4.0203 5.4165 4.2316 5.7383 4.4301 solid black
+edge "51-0" "1-0" 4 7.0758 2.0567 7.4888 2.4579 8.2966 3.2425 8.7774 3.7095 solid black
+edge "51-0" "9-0" 4 6.4774 1.5518 6.3731 1.474 6.2536 1.3849 6.1324 1.2946 solid black
+edge "0-0-IOFlow" "0-0" 4 1.0995 0.83782 1.1976 0.94953 1.6856 1.5054 2.0146 1.8802 "f 2" 1.446 1.4632 solid black
+stop

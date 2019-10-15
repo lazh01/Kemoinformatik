@@ -1,0 +1,196 @@
+digraph g {
+legend_varNames [ label="varNum: varName" ]
+legend_varNames_0 [ label="0: x_170_out(p_{0,12})" ]
+legend_varNames_1 [ label="1: x_167_out(p_{0,9})" ]
+legend_varNames_2 [ label="2: x_175_out(p_{0,17})" ]
+legend_varNames_3 [ label="3: x_166_out(p_{0,8})" ]
+legend_varNames_4 [ label="4: x_171_out(p_{0,13})" ]
+legend_varNames_5 [ label="5: x_125_in(p_{0,7})" ]
+legend_varNames_6 [ label="6: x_162_out(p_{0,4})" ]
+legend_varNames_7 [ label="7: x_129_in(p_{0,11})" ]
+legend_varNames_8 [ label="8: x_123_in(p_{0,5})" ]
+legend_varNames_9 [ label="9: x_169_out(p_{0,11})" ]
+legend_varNames_10 [ label="10: x_160_out(p_{0,2})" ]
+legend_varNames_11 [ label="11: x_130_in(p_{0,12})" ]
+legend_varNames_12 [ label="12: x_164_out(p_{0,6})" ]
+legend_varNames_13 [ label="13: x_173_out(p_{0,15})" ]
+legend_varNames_14 [ label="14: x_128_in(p_{0,10})" ]
+legend_varNames_15 [ label="15: x_127_in(p_{0,9})" ]
+legend_varNames_16 [ label="16: x_163_out(p_{0,5})" ]
+legend_varNames_17 [ label="17: x_126_in(p_{0,8})" ]
+legend_varNames_18 [ label="18: x_174_out(p_{0,16})" ]
+legend_varNames_19 [ label="19: x_131_in(p_{0,13})" ]
+legend_varNames_20 [ label="20: x_133_in(p_{0,15})" ]
+legend_varNames_21 [ label="21: x_165_out(p_{0,7})" ]
+legend_varNames_22 [ label="22: x_122_in(p_{0,4})" ]
+legend_varNames_23 [ label="23: x_156_out(Formaldehyde)" ]
+legend_varNames_24 [ label="24: x_119_in(p_{0,1})" ]
+legend_varNames_25 [ label="25: x_168_out(p_{0,10})" ]
+legend_varNames_26 [ label="26: x_158_out(p_{0,0})" ]
+legend_varNames_27 [ label="27: x_121_in(p_{0,3})" ]
+legend_varNames_28 [ label="28: x_159_out(p_{0,1})" ]
+legend_varNames_29 [ label="29: x_124_in(p_{0,6})" ]
+legend_varNames_30 [ label="30: x_172_out(p_{0,14})" ]
+legend_varNames_31 [ label="31: x_161_out(p_{0,3})" ]
+legend_varNames_32 [ label="32: x_135_in(p_{0,17})" ]
+legend_varNames_33 [ label="33: x_118_in(p_{0,0})" ]
+legend_varNames_34 [ label="34: x_134_in(p_{0,16})" ]
+legend_varNames_35 [ label="35: x_120_in(p_{0,2})" ]
+legend_varNames_36 [ label="36: x_132_in(p_{0,14})" ]
+legend_varNames_37 [ label="37: x_157_out(Glycolaldehyde)" ]
+legend_varNames_38 [ label="38: x_11_edge(19)" ]
+legend_varNames_39 [ label="39: x_41_edge(60)" ]
+legend_varNames_40 [ label="40: x_39_edge(57)" ]
+legend_varNames_41 [ label="41: x_117_in(Glycolaldehyde)" ]
+legend_varNames_42 [ label="42: x_38_edge(56)" ]
+legend_varNames_43 [ label="43: x_14_edge(24)" ]
+legend_varNames_44 [ label="44: x_5_edge(10)" ]
+legend_varNames_45 [ label="45: x_45_edge(64)" ]
+legend_varNames_46 [ label="46: x_42_edge(61)" ]
+legend_varNames_47 [ label="47: x_40_edge(58)" ]
+legend_varNames_48 [ label="48: x_1_edge(3)" ]
+legend_varNames_49 [ label="49: x_37_edge(55)" ]
+legend_varNames_50 [ label="50: x_43_edge(62)" ]
+legend_varNames_51 [ label="51: x_116_in(Formaldehyde)" ]
+legend_varNames_52 [ label="52: x_10_edge(18)" ]
+legend_varNames_53 [ label="53: x_7_edge(14)" ]
+legend_varNames_54 [ label="54: x_6_edge(12)" ]
+legend_varNames_55 [ label="55: x_17_edge(29)" ]
+legend_varNames_56 [ label="56: x_15_edge(26)" ]
+legend_varNames_57 [ label="57: x_2_edge(4)" ]
+legend_varNames_58 [ label="58: x_16_edge(27)" ]
+legend_varNames_59 [ label="59: x_44_edge(63)" ]
+legend_varNames_60 [ label="60: x_21_edge(35)" ]
+legend_varNames_61 [ label="61: x_22_edge(36)" ]
+legend_varNames_62 [ label="62: x_23_edge(38)" ]
+legend_varNames_63 [ label="63: x_46_edge(65)" ]
+legend_varNames_64 [ label="64: x_4_edge(8)" ]
+legend_varNames_65 [ label="65: x_24_edge(39)" ]
+legend_varNames_66 [ label="66: x_13_edge(22)" ]
+legend_varNames_67 [ label="67: x_26_edge(42)" ]
+legend_varNames_68 [ label="68: x_28_edge(44)" ]
+legend_varNames_69 [ label="69: x_8_edge(15)" ]
+legend_varNames_70 [ label="70: x_31_edge(48)" ]
+legend_varNames_71 [ label="71: x_9_edge(16)" ]
+legend_varNames_72 [ label="72: x_3_edge(6)" ]
+legend_varNames_73 [ label="73: x_33_edge(50)" ]
+legend_varNames_74 [ label="74: x_12_edge(21)" ]
+legend_varNames_75 [ label="75: x_36_edge(53)" ]
+legend_varNames_76 [ label="76: x_35_edge(52)" ]
+legend_varNames_77 [ label="77: x_34_edge(51)" ]
+legend_varNames_78 [ label="78: x_25_edge(41)" ]
+legend_varNames_79 [ label="79: x_30_edge(47)" ]
+legend_varNames_80 [ label="80: x_27_edge(43)" ]
+legend_varNames_81 [ label="81: x_29_edge(45)" ]
+legend_varNames_82 [ label="82: x_32_edge(49)" ]
+legend_varNames_83 [ label="83: x_18_edge(31)" ]
+legend_varNames_84 [ label="84: x_19_edge(32)" ]
+legend_varNames_85 [ label="85: x_20_edge(34)" ]
+legend_varNames -> legend_varNames_0
+legend_varNames_0 -> legend_varNames_1
+legend_varNames_1 -> legend_varNames_2
+legend_varNames_2 -> legend_varNames_3
+legend_varNames_3 -> legend_varNames_4
+legend_varNames_4 -> legend_varNames_5
+legend_varNames_5 -> legend_varNames_6
+legend_varNames_6 -> legend_varNames_7
+legend_varNames_7 -> legend_varNames_8
+legend_varNames_8 -> legend_varNames_9
+legend_varNames_9 -> legend_varNames_10
+legend_varNames_10 -> legend_varNames_11
+legend_varNames_11 -> legend_varNames_12
+legend_varNames_12 -> legend_varNames_13
+legend_varNames_13 -> legend_varNames_14
+legend_varNames_14 -> legend_varNames_15
+legend_varNames_15 -> legend_varNames_16
+legend_varNames_16 -> legend_varNames_17
+legend_varNames_17 -> legend_varNames_18
+legend_varNames_18 -> legend_varNames_19
+legend_varNames_19 -> legend_varNames_20
+legend_varNames_20 -> legend_varNames_21
+legend_varNames_21 -> legend_varNames_22
+legend_varNames_22 -> legend_varNames_23
+legend_varNames_23 -> legend_varNames_24
+legend_varNames_24 -> legend_varNames_25
+legend_varNames_25 -> legend_varNames_26
+legend_varNames_26 -> legend_varNames_27
+legend_varNames_27 -> legend_varNames_28
+legend_varNames_28 -> legend_varNames_29
+legend_varNames_29 -> legend_varNames_30
+legend_varNames_30 -> legend_varNames_31
+legend_varNames_31 -> legend_varNames_32
+legend_varNames_32 -> legend_varNames_33
+legend_varNames_33 -> legend_varNames_34
+legend_varNames_34 -> legend_varNames_35
+legend_varNames_35 -> legend_varNames_36
+legend_varNames_36 -> legend_varNames_37
+legend_varNames_37 -> legend_varNames_38
+legend_varNames_38 -> legend_varNames_39
+legend_varNames_39 -> legend_varNames_40
+legend_varNames_40 -> legend_varNames_41
+legend_varNames_41 -> legend_varNames_42
+legend_varNames_42 -> legend_varNames_43
+legend_varNames_43 -> legend_varNames_44
+legend_varNames_44 -> legend_varNames_45
+legend_varNames_45 -> legend_varNames_46
+legend_varNames_46 -> legend_varNames_47
+legend_varNames_47 -> legend_varNames_48
+legend_varNames_48 -> legend_varNames_49
+legend_varNames_49 -> legend_varNames_50
+legend_varNames_50 -> legend_varNames_51
+legend_varNames_51 -> legend_varNames_52
+legend_varNames_52 -> legend_varNames_53
+legend_varNames_53 -> legend_varNames_54
+legend_varNames_54 -> legend_varNames_55
+legend_varNames_55 -> legend_varNames_56
+legend_varNames_56 -> legend_varNames_57
+legend_varNames_57 -> legend_varNames_58
+legend_varNames_58 -> legend_varNames_59
+legend_varNames_59 -> legend_varNames_60
+legend_varNames_60 -> legend_varNames_61
+legend_varNames_61 -> legend_varNames_62
+legend_varNames_62 -> legend_varNames_63
+legend_varNames_63 -> legend_varNames_64
+legend_varNames_64 -> legend_varNames_65
+legend_varNames_65 -> legend_varNames_66
+legend_varNames_66 -> legend_varNames_67
+legend_varNames_67 -> legend_varNames_68
+legend_varNames_68 -> legend_varNames_69
+legend_varNames_69 -> legend_varNames_70
+legend_varNames_70 -> legend_varNames_71
+legend_varNames_71 -> legend_varNames_72
+legend_varNames_72 -> legend_varNames_73
+legend_varNames_73 -> legend_varNames_74
+legend_varNames_74 -> legend_varNames_75
+legend_varNames_75 -> legend_varNames_76
+legend_varNames_76 -> legend_varNames_77
+legend_varNames_77 -> legend_varNames_78
+legend_varNames_78 -> legend_varNames_79
+legend_varNames_79 -> legend_varNames_80
+legend_varNames_80 -> legend_varNames_81
+legend_varNames_81 -> legend_varNames_82
+legend_varNames_82 -> legend_varNames_83
+legend_varNames_83 -> legend_varNames_84
+legend_varNames_84 -> legend_varNames_85
+legend_colours_0 [ label="Meaning of colours and line style" ]
+legend_colours_1 [ label="Not yet processed at all"  ]
+legend_colours_0 -> legend_colours_1
+legend_colours_2 [ label="Infeasible" color=gray ]
+legend_colours_1 -> legend_colours_2
+legend_colours_3 [ label="Infeasible by user request" color=purple style=dashed ]
+legend_colours_2 -> legend_colours_3
+legend_colours_4 [ label="Infeasible due to absGap" color=purple ]
+legend_colours_3 -> legend_colours_4
+legend_colours_5 [ label="Currently not optimal" style=dashed ]
+legend_colours_4 -> legend_colours_5
+legend_colours_6 [ label="Feasible" color=green ]
+legend_colours_5 -> legend_colours_6
+legend_colours_7 [ label="Feasible, implicitly solved" color=green style=dashed ]
+legend_colours_6 -> legend_colours_7
+legend_colours_8 [ label="Duplicate solution" color=blue ]
+legend_colours_7 -> legend_colours_8
+legend_colours_9 [ label="Current node at exit" fontcolor=red ]
+legend_colours_8 -> legend_colours_9
+legend_text [ label="Text: varNum, objVal, solutionId" ]
+1 [ label="1, 0, 12, 0" color=green fontcolor=red ] 
+}

@@ -1,0 +1,104 @@
+digraph g {
+
+// id = 0, graphName = Formaldehyde
+"0-0" [ shape=ellipse label="Formaldehyde" image="out/000_g_0_11311100.svg" ];
+// id = 1, graphName = Glycolaldehyde
+"1-0" [ shape=ellipse label="Glycolaldehyde" image="out/001_g_1_11311100.svg" ];
+// id = 2, graphName = p_{0,0}
+"2-0" [ shape=ellipse label="p_{0,0}" image="out/023_g_2_11311100.svg" ];
+// id = 5, graphName = p_{0,1}
+"5-0" [ shape=ellipse label="p_{0,1}" image="out/024_g_6_11311100.svg" ];
+// id = 7, graphName = p_{0,2}
+"7-0" [ shape=ellipse label="p_{0,2}" image="out/025_g_7_11311100.svg" ];
+// id = 9, graphName = p_{0,3}
+"9-0" [ shape=ellipse label="p_{0,3}" image="out/026_g_8_11311100.svg" ];
+// id = 11, graphName = p_{0,4}
+"11-0" [ shape=ellipse label="p_{0,4}" image="out/027_g_9_11311100.svg" ];
+// id = 13, graphName = p_{0,5}
+// id = 17, graphName = p_{0,6}
+// id = 20, graphName = p_{0,7}
+// id = 23, graphName = p_{0,8}
+"23-0" [ shape=ellipse label="p_{0,8}" image="out/031_g_22_11311100.svg" ];
+// id = 25, graphName = p_{0,9}
+// id = 28, graphName = p_{0,10}
+// id = 30, graphName = p_{0,11}
+// id = 33, graphName = p_{0,12}
+// id = 37, graphName = p_{0,13}
+// id = 40, graphName = p_{0,14}
+// id = 46, graphName = p_{0,15}
+// id = 54, graphName = p_{0,16}
+// id = 59, graphName = p_{0,17}
+// id = 6{ 'Formaldehyde' 'p_{0,0}' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"6-0" [ shape=box label="f 1, r_{2}" ];
+// id = 16{ 'p_{0,2}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,0}' }
+"16-0" [ shape=box label="f 1, r_{3}" ];
+// id = 27{ 'Formaldehyde' 'p_{0,3}' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"27-0" [ shape=box label="f 1, r_{2}" ];
+// id = 3{ 'Glycolaldehyde' }, 'Keto-enol isomerization ->', { 'p_{0,0}' }
+"1-0" -> "2-0" [ label="f 1, r_{0}" ];
+// id = 4{ 'p_{0,0}' }, 'Keto-enol isomerization <-', { 'Glycolaldehyde' }
+"2-0" -> "1-0" [ label="f 1, r_{1}" ];
+// id = 6{ 'Formaldehyde' 'p_{0,0}' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"0-0" -> "6-0" [ ];
+"2-0" -> "6-0" [ ];
+"6-0" -> "5-0" [ ];
+// id = 8{ 'Glycolaldehyde' 'p_{0,0}' }, 'Aldol Addition ->', { 'p_{0,2}' }
+// id = 10{ 'p_{0,1}' }, 'Keto-enol isomerization ->', { 'p_{0,3}' }
+"5-0" -> "9-0" [ label="f 1, r_{0}" ];
+// id = 12{ 'p_{0,2}' }, 'Keto-enol isomerization ->', { 'p_{0,4}' }
+// id = 14{ 'p_{0,0}' 'p_{0,1}' }, 'Aldol Addition ->', { 'p_{0,5}' }
+// id = 15{ 'p_{0,1}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,0}' }
+// id = 16{ 'p_{0,2}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,0}' }
+"7-0" -> "16-0" [ ];
+"16-0" -> "1-0" [ ];
+"16-0" -> "2-0" [ ];
+// id = 18{ 'p_{0,5}' }, 'Keto-enol isomerization ->', { 'p_{0,6}' }
+// id = 19{ 'p_{0,3}' }, 'Keto-enol isomerization <-', { 'p_{0,1}' }
+// id = 21{ 'p_{0,3}' }, 'Keto-enol isomerization <-', { 'p_{0,7}' }
+// id = 22{ 'p_{0,4}' }, 'Keto-enol isomerization <-', { 'p_{0,2}' }
+"11-0" -> "7-0" [ label="f 1, r_{1}" ];
+// id = 24{ 'p_{0,4}' }, 'Keto-enol isomerization <-', { 'p_{0,8}' }
+// id = 26{ 'Formaldehyde' 'p_{0,3}' }, 'Aldol Addition ->', { 'p_{0,9}' }
+// id = 27{ 'Formaldehyde' 'p_{0,3}' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"0-0" -> "27-0" [ ];
+"9-0" -> "27-0" [ ];
+"27-0" -> "23-0" [ ];
+// id = 29{ 'Formaldehyde' 'p_{0,4}' }, 'Aldol Addition ->', { 'p_{0,10}' }
+// id = 31{ 'Formaldehyde' 'p_{0,4}' }, 'Aldol Addition ->', { 'p_{0,11}' }
+// id = 32{ 'Glycolaldehyde' 'p_{0,3}' }, 'Aldol Addition ->', { 'p_{0,10}' }
+// id = 34{ 'Glycolaldehyde' 'p_{0,3}' }, 'Aldol Addition ->', { 'p_{0,12}' }
+// id = 35{ 'p_{0,5}' }, 'Aldol Addition <-', { 'p_{0,0}' 'p_{0,1}' }
+// id = 36{ 'p_{0,7}' }, 'Keto-enol isomerization ->', { 'p_{0,3}' }
+// id = 38{ 'p_{0,8}' }, 'Keto-enol isomerization ->', { 'p_{0,13}' }
+// id = 39{ 'p_{0,8}' }, 'Keto-enol isomerization ->', { 'p_{0,4}' }
+"23-0" -> "11-0" [ label="f 1, r_{0}" ];
+// id = 41{ 'p_{0,11}' }, 'Keto-enol isomerization ->', { 'p_{0,14}' }
+// id = 42{ 'p_{0,12}' }, 'Keto-enol isomerization ->', { 'p_{0,6}' }
+// id = 43{ 'p_{0,12}' }, 'Keto-enol isomerization ->', { 'p_{0,14}' }
+// id = 44{ 'p_{0,6}' }, 'Keto-enol isomerization <-', { 'p_{0,5}' }
+// id = 45{ 'p_{0,6}' }, 'Keto-enol isomerization <-', { 'p_{0,12}' }
+// id = 47{ 'p_{0,0}' 'p_{0,7}' }, 'Aldol Addition ->', { 'p_{0,15}' }
+// id = 48{ 'p_{0,8}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,3}' }
+// id = 49{ 'p_{0,9}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,3}' }
+// id = 50{ 'p_{0,10}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,4}' }
+// id = 51{ 'p_{0,10}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,3}' }
+// id = 52{ 'p_{0,11}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,4}' }
+// id = 53{ 'p_{0,12}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,3}' }
+// id = 55{ 'p_{0,15}' }, 'Keto-enol isomerization ->', { 'p_{0,16}' }
+// id = 56{ 'p_{0,13}' }, 'Keto-enol isomerization <-', { 'p_{0,8}' }
+// id = 57{ 'p_{0,14}' }, 'Keto-enol isomerization <-', { 'p_{0,11}' }
+// id = 58{ 'p_{0,14}' }, 'Keto-enol isomerization <-', { 'p_{0,12}' }
+// id = 60{ 'Formaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,17}' }
+// id = 61{ 'p_{0,15}' }, 'Aldol Addition <-', { 'p_{0,0}' 'p_{0,7}' }
+// id = 62{ 'p_{0,17}' }, 'Keto-enol isomerization ->', { 'p_{0,16}' }
+// id = 63{ 'p_{0,16}' }, 'Keto-enol isomerization <-', { 'p_{0,15}' }
+// id = 64{ 'p_{0,16}' }, 'Keto-enol isomerization <-', { 'p_{0,17}' }
+// id = 65{ 'p_{0,17}' }, 'Aldol Addition <-', { 'Formaldehyde' 'p_{0,13}' }
+// inFlow/outFlow, id = 0-0, graphName = Formaldehyde, inFlow = 2, outFlow = 0
+"0-0-IOFlow" [ shape=point style=invis label="" ];
+"0-0-IOFlow" -> "0-0" [ label="f 2" ];
+// inFlow/outFlow, id = 1-0, graphName = Glycolaldehyde, inFlow = 1, outFlow = 2
+"1-0-IOFlow" [ shape=point style=invis label="" ];
+"1-0-IOFlow" -> "1-0" [ label="f 1" ];
+"1-0" -> "1-0-IOFlow" [ label="f 2" ];
+}
