@@ -14,12 +14,12 @@ rule [
 		id 0
 		op "="
 		count 0
-		nodeLabels [ label "0" label "A" ]
+		nodeLabels [ label "0"  ]
 	]
     constrainAdj [
 		id 1
 		op "="
 		count 0
-		nodeLabels [ label "0" label "A" ]
+		nodeLabels [ label "0" ]
 	]		
 ]
