@@ -1,0 +1,20 @@
+Running VM ---------------------------------------------------------
+Executing code from 'doIt.py'
+Executing code from 'rules.py'
+End of code from 'rules.py'
+Repeat, limit = 1
+   Substrat 0
+   Got 1 graphs
+Traceback (most recent call last):
+  File "out/input", line 60, in <module>
+    include("doIt.py")
+  File "out/input", line 48, in include
+    exec(code, globals())
+  File "doIt.py", line 34, in <module>
+    flow.addSink(goal)
+mod.libpymod.LogicError: Can not add sink. Graph 'Goal' is not a vertex graph of DG DGRuleComp(0)
+
+
+real	0m0.555s
+user	0m0.191s
+sys	0m0.057s

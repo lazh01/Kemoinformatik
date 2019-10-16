@@ -1,0 +1,9 @@
+digraph g {
+
+// id = 0, graphName = Start
+"0-0" [ shape=ellipse label="Start" ];
+// id = 1, graphName = p_{0,0}
+"1-0" [ shape=ellipse label="p_{0,0}" ];
+// id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
+"0-0" -> "1-0" [ label="r_{0}" ];
+}

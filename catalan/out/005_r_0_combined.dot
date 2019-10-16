@@ -1,0 +1,9 @@
+graph G {
+	0 [ label="0 | A" ]
+	1 [ label="0 | R" ]
+	2 [ label="0 | R" ]
+	3 [ label="0 | R" ]
+	0 -- 1 [ label="- | -" ]
+	0 -- 2 [ label="- | -" ]
+	0 -- 3 [ label="- | -" ]
+}
