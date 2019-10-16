@@ -4,7 +4,8 @@
 \contentsline {subsection}{\numberline {0.1.2}\texttt {Start}}{2}{subsection.0.1.2}
 \contentsline {section}{\numberline {0.2}Loaded Rules}{2}{section.0.2}
 \contentsline {subsection}{\numberline {0.2.1}Mark for conversion}{2}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}DG Hyper, \texttt {dg\_0}}{4}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.2}RemoveSingleR}{4}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.3}DG Hyper, \texttt {dg\_0}}{4}{subsection.0.2.3}
 \contentsline {section}{\numberline {0.3}Product Graphs}{4}{section.0.3}
 \contentsline {subsection}{\numberline {0.3.1}\texttt {p\_\{0,0\}}}{4}{subsection.0.3.1}
-\contentsline {section}{\numberline {0.4}Flow Solutions, id 0}{4}{section.0.4}
+\contentsline {section}{\numberline {0.4}Flow Solutions, id 0}{5}{section.0.4}

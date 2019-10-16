@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\newcommand{\modPrefix}{/mnt/Shared/jlandersen/shared/bin/..}\newcommand{\mod
-FigureInput}{out/004_r_0_11300100_R.tex}\input{\modPrefix/share/mod/figureTempl
-ate.tex}
+FigureInput}{out/013_dg_0_10100.tex}\input{\modPrefix/share/mod/figureTemplate.
+tex}
 (/mnt/Shared/jlandersen/shared/bin/../share/mod/figureTemplate.tex
 (/usr/share/texmf/tex/latex/preview/preview.sty
 Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
@@ -19,8 +19,8 @@ Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 \pr@box=\box83
 \pr@output=\toks37
 )
-No file out/004_r_0_11300100_R.aux.
-\openout1 = `out/004_r_0_11300100_R.aux'.
+No file out/013_dg_0_10100.aux.
+\openout1 = `out/013_dg_0_10100.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -81,7 +81,7 @@ LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write5
-\openout5 = `out/004_r_0_11300100_R.out'.
+\openout5 = `out/013_dg_0_10100.out'.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -183,22 +183,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count333
 
-(./out/004_r_0_11300100_R.tex (./out/002_r_0_mol_coord.tex))
+(./out/013_dg_0_10100.tex (./out/012_dg_0_10100_coord.tex))
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
 
-(./out/004_r_0_11300100_R.aux)
+(./out/013_dg_0_10100.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 
 
-Package rerunfilecheck Warning: File `out/004_r_0_11300100_R.out' has changed.
+Package rerunfilecheck Warning: File `out/013_dg_0_10100.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `out/004_r_0_11300100_R.out':
+Package rerunfilecheck Info: Checksums for `out/013_dg_0_10100.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -207,18 +207,20 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 22.
  ) 
 Here is how much of TeX's memory you used:
- 1360 strings out of 462215
- 22165 string characters out of 5486072
- 716491 words of memory out of 5000000
- 35226 multiletter control sequences out of 15000+600000
+ 1290 strings out of 462215
+ 21070 string characters out of 5486072
+ 716487 words of memory out of 5000000
+ 35156 multiletter control sequences out of 15000+600000
  536329 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,60p,346b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on out/004_r_0_11300100_R.pdf (1 page, 9024 bytes).
+ 37i,7n,60p,344b,719s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on out/013_dg_0_10100.pdf (1 page, 23909 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
