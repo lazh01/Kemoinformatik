@@ -67,6 +67,6 @@ Flow	num solutions	0
 Flow	Calculation done
 End of code from 'doIt.py'
 
-real	0m0.464s
-user	0m0.119s
-sys	0m0.061s
+real	0m0.588s
+user	0m0.199s
+sys	0m0.009s
