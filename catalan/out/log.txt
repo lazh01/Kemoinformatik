@@ -2,7 +2,7 @@ Running VM ---------------------------------------------------------
 Executing code from 'doIt.py'
 Executing code from 'rules.py'
 End of code from 'rules.py'
-Repeat, limit = 5
+Repeat, limit = 1000000000
    Substrat 0
    Got 1 graphs
    Substrat 1
@@ -13,6 +13,50 @@ Repeat, limit = 5
    Got 9 graphs
    Substrat 4
    Got 12 graphs
+   Substrat 5
+   Got 19 graphs
+   Substrat 6
+   Got 22 graphs
+   Substrat 7
+   Got 27 graphs
+   Substrat 8
+   Got 29 graphs
+   Substrat 9
+   Got 30 graphs
+   Substrat 10
+   Got 28 graphs
+   Substrat 11
+   Got 26 graphs
+   Substrat 12
+   Got 21 graphs
+   Substrat 13
+   Got 17 graphs
+   Substrat 14
+   Got 13 graphs
+   Substrat 15
+   Got 9 graphs
+   Substrat 16
+   Got 6 graphs
+   Substrat 17
+   Got 4 graphs
+   Substrat 18
+   Got 2 graphs
+   Substrat 19
+   Got 1 graphs
+   Substrat 20
+   Got 1 graphs
+   Substrat 21
+   Got 1 graphs
+   Substrat 22
+   Got 1 graphs
+   Substrat 23
+   Got 1 graphs
+   Substrat 24
+   Got 1 graphs
+   Substrat 25
+   Got 1 graphs
+   Substrat 26
+   Got 0 graphs
 Using user defined objective function: 0
 Flow: ==========================================================================
 DG: DGRuleComp(0)
@@ -37,20 +81,20 @@ absGap: 1073741824
 maxNumSolutions: 1
 enumerationVarSpecifier: <default>
 transitEnumeration:
-Base	#exploded transit edges	32
-Base	#exploded transit edges no empty	32
-Base	#transit edges, no opt	260
+Base	#exploded transit edges	292
+Base	#exploded transit edges no empty	292
+Base	#transit edges, no opt	5161
 Base	#fixed variables	0
 Flow	Adding user variables
 Flow	Setting objective function
 Notice: linear expression '0' is 0.
 Flow	Adding user constraints
 FlowBase	model created
-Flow	num variables	402
+Flow	num variables	4354
 Solving using EnumerateBy
-Enumeration by variable set (121 variables)
+Enumeration by variable set (1447 variables)
 ============================================================
-AbstractSolver:  non-fixed enumeration vars: 58
+AbstractSolver:  non-fixed enumeration vars: 864
 Solving root node.
 CPXPARAM_TimeLimit                               1073741824
 CPXPARAM_Threads                                 1
@@ -58,19 +102,19 @@ CPXPARAM_MIP_Tolerances_MIPGap                   0
 CPXPARAM_Emphasis_MIP                            2
 CPXPARAM_MIP_Pool_Intensity                      4
 CPXPARAM_MIP_Limits_Populate                     1
-Infeasibility row 'c138':  0  = -1.
-Presolve time = 0.00 sec. (0.16 ticks)
+Infeasibility row 'c1750':  0  = -1.
+Presolve time = 0.00 sec. (1.75 ticks)
 
 Root node processing (before b&c):
-  Real time             =    0.00 sec. (0.20 ticks)
+  Real time             =    0.00 sec. (2.16 ticks)
 Sequential b&c:
   Real time             =    0.00 sec. (0.00 ticks)
                           ------------
-Total (root+branch&cut) =    0.00 sec. (0.20 ticks)
+Total (root+branch&cut) =    0.00 sec. (2.16 ticks)
 Flow	num solutions	0
 Flow	Calculation done
 End of code from 'doIt.py'
 
-real	0m1.105s
-user	0m0.401s
-sys	0m0.038s
+real	0m6.017s
+user	0m1.778s
+sys	0m0.309s
