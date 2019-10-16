@@ -8,8 +8,8 @@
 \node[modStyleDGHyperVertex, at=(v-coord-3-0)] (v-3-0) {{$\mathrm{p_{0,1}}$}};
 % id = 5, graphName = p_{0,2}
 \node[modStyleDGHyperVertex, at=(v-coord-5-0)] (v-5-0) {{$\mathrm{p_{0,2}}$}};
-% id = 7, graphName = p_{0,3}
-\node[modStyleDGHyperVertex, at=(v-coord-7-0)] (v-7-0) {{$\mathrm{p_{0,3}}$}};
+% id = 6, graphName = p_{0,3}
+\node[modStyleDGHyperVertex, at=(v-coord-6-0)] (v-6-0) {{$\mathrm{p_{0,3}}$}};
 % id = 8, graphName = p_{0,4}
 \node[modStyleDGHyperVertex, at=(v-coord-8-0)] (v-8-0) {{$\mathrm{p_{0,4}}$}};
 % id = 10, graphName = p_{0,5}
@@ -18,76 +18,44 @@
 \node[modStyleDGHyperVertex, at=(v-coord-12-0)] (v-12-0) {{$\mathrm{p_{0,6}}$}};
 % id = 14, graphName = p_{0,7}
 \node[modStyleDGHyperVertex, at=(v-coord-14-0)] (v-14-0) {{$\mathrm{p_{0,7}}$}};
-% id = 16, graphName = p_{0,8}
-\node[modStyleDGHyperVertex, at=(v-coord-16-0)] (v-16-0) {{$\mathrm{p_{0,8}}$}};
-% id = 18, graphName = p_{0,9}
-\node[modStyleDGHyperVertex, at=(v-coord-18-0)] (v-18-0) {{$\mathrm{p_{0,9}}$}};
-% id = 22, graphName = p_{0,10}
-\node[modStyleDGHyperVertex, at=(v-coord-22-0)] (v-22-0) {{$\mathrm{p_{0,10}}$}};
-% id = 23, graphName = p_{0,11}
-\node[modStyleDGHyperVertex, at=(v-coord-23-0)] (v-23-0) {{$\mathrm{p_{0,11}}$}};
-% id = 25, graphName = p_{0,12}
-\node[modStyleDGHyperVertex, at=(v-coord-25-0)] (v-25-0) {{$\mathrm{p_{0,12}}$}};
-% id = 28, graphName = p_{0,13}
-\node[modStyleDGHyperVertex, at=(v-coord-28-0)] (v-28-0) {{$\mathrm{p_{0,13}}$}};
-% id = 30, graphName = p_{0,14}
-\node[modStyleDGHyperVertex, at=(v-coord-30-0)] (v-30-0) {{$\mathrm{p_{0,14}}$}};
-% id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
-\node[modStyleDGHyperEdge, at=(v-coord-9-0)] (v-9-0) {$\mathrm{r_{1}}$};
-% id = 21{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,8}' }
-\node[modStyleDGHyperEdge, at=(v-coord-21-0)] (v-21-0) {$\mathrm{r_{1}}$};
-% id = 24{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,10}' 'p_{0,11}' }
-\node[modStyleDGHyperEdge, at=(v-coord-24-0)] (v-24-0) {$\mathrm{r_{1}}$};
-% id = 26{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,12}' }
-\node[modStyleDGHyperEdge, at=(v-coord-26-0)] (v-26-0) {$\mathrm{r_{1}}$};
-% id = 29{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,13}' }
-\node[modStyleDGHyperEdge, at=(v-coord-29-0)] (v-29-0) {$\mathrm{r_{1}}$};
+% id = 17, graphName = p_{0,8}
+\node[modStyleDGHyperVertex, at=(v-coord-17-0)] (v-17-0) {{$\mathrm{p_{0,8}}$}};
+% id = 21, graphName = p_{0,9}
+\node[modStyleDGHyperVertex, at=(v-coord-21-0)] (v-21-0) {{$\mathrm{p_{0,9}}$}};
+% id = 7{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,3}' }
+\node[modStyleDGHyperEdge, at=(v-coord-7-0)] (v-7-0) {$\mathrm{r_{1}}$};
+% id = 16{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,6}' }
+\node[modStyleDGHyperEdge, at=(v-coord-16-0)] (v-16-0) {$\mathrm{r_{1}}$};
+% id = 18{ 'p_{0,4}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,8}' }
+\node[modStyleDGHyperEdge, at=(v-coord-18-0)] (v-18-0) {$\mathrm{r_{1}}$};
 % id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
 \path[modStyleDGHyperConnector] (v-0-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-1-0);
 % id = 4{ 'p_{0,0}' }, 'Mark for conversion', { 'p_{0,1}' }
 \path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-3-0);
-% id = 6{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,2}' }
-\path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {$\mathrm{r_{1}}$} (v-5-0);
-% id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
-\path[modStyleDGHyperConnector] (v-1-0) to (v-9-0);
-\path[modStyleDGHyperConnector] (v-9-0) to (v-7-0);
-\path[modStyleDGHyperConnector] (v-9-0) to (v-8-0);
-% id = 11{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,5}' }
-\path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-10-0);
-% id = 13{ 'p_{0,1}' }, 'Mark for conversion', { 'p_{0,6}' }
-\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-12-0);
-% id = 15{ 'p_{0,2}' }, 'Mark for conversion', { 'p_{0,7}' }
-\path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-14-0);
-% id = 17{ 'p_{0,3}' }, 'Mark for conversion', { 'p_{0,8}' }
-\path[modStyleDGHyperConnector] (v-7-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-16-0);
-% id = 19{ 'p_{0,5}' }, 'Mark for conversion', { 'p_{0,9}' }
-\path[modStyleDGHyperConnector] (v-10-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-18-0);
-% id = 20{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,7}' }
-\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{1}}$} (v-14-0);
-% id = 21{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,8}' }
-\path[modStyleDGHyperConnector] (v-3-0) to (v-21-0);
-\path[modStyleDGHyperConnector] (v-21-0) to (v-8-0);
-\path[modStyleDGHyperConnector] (v-21-0) to (v-16-0);
-% id = 24{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,10}' 'p_{0,11}' }
-\path[modStyleDGHyperConnector] (v-5-0) to (v-24-0);
-\path[modStyleDGHyperConnector] (v-24-0) to (v-22-0);
-\path[modStyleDGHyperConnector] (v-24-0) to (v-23-0);
-% id = 26{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,12}' }
-\path[modStyleDGHyperConnector] (v-5-0) to (v-26-0);
-\path[modStyleDGHyperConnector] (v-26-0) to (v-8-0);
-\path[modStyleDGHyperConnector] (v-26-0) to (v-25-0);
-% id = 27{ 'p_{0,3}' }, 'RemoveSingleR', { 'p_{0,12}' }
-\path[modStyleDGHyperConnector] (v-7-0) to node[auto, swap] {$\mathrm{r_{1}}$} (v-25-0);
-% id = 29{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,13}' }
-\path[modStyleDGHyperConnector] (v-10-0) to (v-29-0);
-\path[modStyleDGHyperConnector] (v-29-0) to (v-8-0);
-\path[modStyleDGHyperConnector] (v-29-0) to (v-28-0);
-% id = 31{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,14}' }
-\path[modStyleDGHyperConnector] (v-10-0) to node[auto, swap] {$\mathrm{r_{1}}$} (v-30-0);
-% id = 32{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,9}' }
-\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-18-0);
-% id = 33{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,14}' }
-\path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-30-0);
-% id = 34{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,13}' }
-\path[modStyleDGHyperConnector] (v-7-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-28-0);
+% id = 7{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,3}' }
+\path[modStyleDGHyperConnector] (v-1-0) to (v-7-0);
+\path[modStyleDGHyperConnector] (v-7-0) to (v-5-0);
+\path[modStyleDGHyperConnector] (v-7-0) to (v-6-0);
+% id = 9{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,4}' }
+\path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-8-0);
+% id = 11{ 'p_{0,1}' }, 'Mark for conversion', { 'p_{0,5}' }
+\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-10-0);
+% id = 13{ 'p_{0,2}' }, 'Mark for conversion', { 'p_{0,6}' }
+\path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-12-0);
+% id = 15{ 'p_{0,4}' }, 'Mark for conversion', { 'p_{0,7}' }
+\path[modStyleDGHyperConnector] (v-8-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-14-0);
+% id = 16{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,6}' }
+\path[modStyleDGHyperConnector] (v-3-0) to (v-16-0);
+\path[modStyleDGHyperConnector] (v-16-0) to (v-6-0);
+\path[modStyleDGHyperConnector] (v-16-0) to (v-12-0);
+% id = 18{ 'p_{0,4}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,8}' }
+\path[modStyleDGHyperConnector] (v-8-0) to (v-18-0);
+\path[modStyleDGHyperConnector] (v-18-0) to (v-6-0);
+\path[modStyleDGHyperConnector] (v-18-0) to (v-17-0);
+% id = 19{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,7}' }
+\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-14-0);
+% id = 20{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,8}' }
+\path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-17-0);
+% id = 22{ 'p_{0,4}' }, 'removeAlreadyAttached', { 'p_{0,9}' }
+\path[modStyleDGHyperConnector] (v-8-0) to node[auto, swap] {$\mathrm{r_{3}}$} (v-21-0);
 \end{tikzpicture}%

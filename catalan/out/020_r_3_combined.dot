@@ -1,7 +1,7 @@
 graph G {
 	0 [ label="A | A" ]
 	1 [ label="R | R" ]
-	2 [ label="O | O" ]
+	2 [ label="0 | 0" ]
 	0 -- 1 [ label="- | -" ]
 	0 -- 2 [ label="- | -" ]
 	1 -- 2 [ style=dashed label="-" ]
