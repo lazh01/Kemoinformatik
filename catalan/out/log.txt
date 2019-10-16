@@ -2,13 +2,17 @@ Running VM ---------------------------------------------------------
 Executing code from 'doIt.py'
 Executing code from 'rules.py'
 End of code from 'rules.py'
-Repeat, limit = 3
+Repeat, limit = 5
    Substrat 0
    Got 1 graphs
    Substrat 1
    Got 2 graphs
    Substrat 2
    Got 2 graphs
+   Substrat 3
+   Got 2 graphs
+   Substrat 4
+   Got 1 graphs
 Using user defined objective function: 0
 Flow: ==========================================================================
 DG: DGRuleComp(0)
@@ -33,20 +37,20 @@ absGap: 1073741824
 maxNumSolutions: 1
 enumerationVarSpecifier: <default>
 transitEnumeration:
-Base	#exploded transit edges	6
-Base	#exploded transit edges no empty	6
-Base	#transit edges, no opt	23
+Base	#exploded transit edges	9
+Base	#exploded transit edges no empty	9
+Base	#transit edges, no opt	44
 Base	#fixed variables	0
 Flow	Adding user variables
 Flow	Setting objective function
 Notice: linear expression '0' is 0.
 Flow	Adding user constraints
 FlowBase	model created
-Flow	num variables	66
+Flow	num variables	103
 Solving using EnumerateBy
-Enumeration by variable set (18 variables)
+Enumeration by variable set (29 variables)
 ============================================================
-AbstractSolver:  non-fixed enumeration vars: 7
+AbstractSolver:  non-fixed enumeration vars: 12
 Solving root node.
 CPXPARAM_TimeLimit                               1073741824
 CPXPARAM_Threads                                 1
@@ -54,19 +58,19 @@ CPXPARAM_MIP_Tolerances_MIPGap                   0
 CPXPARAM_Emphasis_MIP                            2
 CPXPARAM_MIP_Pool_Intensity                      4
 CPXPARAM_MIP_Limits_Populate                     1
-Infeasibility row 'c36':  0  = -1.
-Presolve time = 0.00 sec. (0.02 ticks)
+Infeasibility row 'c46':  0  = -1.
+Presolve time = 0.00 sec. (0.04 ticks)
 
 Root node processing (before b&c):
-  Real time             =    0.00 sec. (0.03 ticks)
+  Real time             =    0.00 sec. (0.06 ticks)
 Sequential b&c:
   Real time             =    0.00 sec. (0.00 ticks)
                           ------------
-Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+Total (root+branch&cut) =    0.00 sec. (0.06 ticks)
 Flow	num solutions	0
 Flow	Calculation done
 End of code from 'doIt.py'
 
-real	0m0.588s
-user	0m0.199s
-sys	0m0.009s
+real	0m0.841s
+user	0m0.181s
+sys	0m0.056s

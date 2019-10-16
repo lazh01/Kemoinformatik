@@ -12,6 +12,12 @@
 \node[modStyleDGHyperVertex, at=(v-coord-7-0)] (v-7-0) {{$\mathrm{p_{0,3}}$}};
 % id = 9, graphName = p_{0,4}
 \node[modStyleDGHyperVertex, at=(v-coord-9-0)] (v-9-0) {{$\mathrm{p_{0,4}}$}};
+% id = 12, graphName = p_{0,5}
+\node[modStyleDGHyperVertex, at=(v-coord-12-0)] (v-12-0) {{$\mathrm{p_{0,5}}$}};
+% id = 15, graphName = p_{0,6}
+\node[modStyleDGHyperVertex, at=(v-coord-15-0)] (v-15-0) {{$\mathrm{p_{0,6}}$}};
+% id = 17, graphName = p_{0,7}
+\node[modStyleDGHyperVertex, at=(v-coord-17-0)] (v-17-0) {{$\mathrm{p_{0,7}}$}};
 % id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
 \path[modStyleDGHyperConnector] (v-0-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-1-0);
 % id = 4{ 'p_{0,0}' }, 'Mark for conversion', { 'p_{0,1}' }
@@ -24,4 +30,14 @@
 \path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-9-0);
 % id = 11{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,4}' }
 \path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-9-0);
+% id = 13{ 'p_{0,4}' }, 'Mark for conversion', { 'p_{0,5}' }
+\path[modStyleDGHyperConnector] (v-9-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-12-0);
+% id = 14{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,5}' }
+\path[modStyleDGHyperConnector] (v-7-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-12-0);
+% id = 16{ 'p_{0,4}' }, 'reattachExternalEdge', { 'p_{0,6}' }
+\path[modStyleDGHyperConnector] (v-9-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-15-0);
+% id = 18{ 'p_{0,6}' }, 'Mark for conversion', { 'p_{0,7}' }
+\path[modStyleDGHyperConnector] (v-15-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-17-0);
+% id = 19{ 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,7}' }
+\path[modStyleDGHyperConnector] (v-12-0) to node[auto, swap] {$\mathrm{r_{2}}$} (v-17-0);
 \end{tikzpicture}%

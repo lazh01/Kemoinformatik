@@ -16,4 +16,7 @@
 \contentsline {subsection}{\numberline {0.3.3}\texttt {p\_\{0,2\}}}{8}{subsection.0.3.3}
 \contentsline {subsection}{\numberline {0.3.4}\texttt {p\_\{0,3\}}}{9}{subsection.0.3.4}
 \contentsline {subsection}{\numberline {0.3.5}\texttt {p\_\{0,4\}}}{10}{subsection.0.3.5}
-\contentsline {section}{\numberline {0.4}Flow Solutions, id 0}{10}{section.0.4}
+\contentsline {subsection}{\numberline {0.3.6}\texttt {p\_\{0,5\}}}{10}{subsection.0.3.6}
+\contentsline {subsection}{\numberline {0.3.7}\texttt {p\_\{0,6\}}}{11}{subsection.0.3.7}
+\contentsline {subsection}{\numberline {0.3.8}\texttt {p\_\{0,7\}}}{11}{subsection.0.3.8}
+\contentsline {section}{\numberline {0.4}Flow Solutions, id 0}{11}{section.0.4}

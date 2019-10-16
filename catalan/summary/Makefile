@@ -24,6 +24,12 @@ summary/all.tex: gen
 	echo '{\texttt{p\_\{0,3\}}}{\summaryGraphFile{out/037_g_34_10300000}{\texttt{out/037\_g\_34\_10300000}}}{\summaryGraphFile{out/037_g_34_11310100}{\texttt{out/037\_g\_34\_11310100}}}' >> summary/all.tex
 	echo -n '\summaryGraph' >> summary/all.tex
 	echo '{\texttt{p\_\{0,4\}}}{\summaryGraphFile{out/038_g_40_10300000}{\texttt{out/038\_g\_40\_10300000}}}{\summaryGraphFile{out/038_g_40_11310100}{\texttt{out/038\_g\_40\_11310100}}}' >> summary/all.tex
+	echo -n '\summaryGraph' >> summary/all.tex
+	echo '{\texttt{p\_\{0,5\}}}{\summaryGraphFile{out/039_g_56_10300000}{\texttt{out/039\_g\_56\_10300000}}}{\summaryGraphFile{out/039_g_56_11310100}{\texttt{out/039\_g\_56\_11310100}}}' >> summary/all.tex
+	echo -n '\summaryGraph' >> summary/all.tex
+	echo '{\texttt{p\_\{0,6\}}}{\summaryGraphFile{out/040_g_68_10300000}{\texttt{out/040\_g\_68\_10300000}}}{\summaryGraphFile{out/040_g_68_11310100}{\texttt{out/040\_g\_68\_11310100}}}' >> summary/all.tex
+	echo -n '\summaryGraph' >> summary/all.tex
+	echo '{\texttt{p\_\{0,7\}}}{\summaryGraphFile{out/041_g_70_10300000}{\texttt{out/041\_g\_70\_10300000}}}{\summaryGraphFile{out/041_g_70_11310100}{\texttt{out/041\_g\_70\_11310100}}}' >> summary/all.tex
 	echo '\summarySection{Flow Solutions, id 0}' >> summary/all.tex
 summary.pdf: summary/all.tex
 	/mnt/Shared/jlandersen/shared/bin/../bin/mod_post --mode compileSummary

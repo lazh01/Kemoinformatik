@@ -12,6 +12,12 @@ digraph g {
 "7-0" [ shape=ellipse label="p_{0,3}" ];
 // id = 9, graphName = p_{0,4}
 "9-0" [ shape=ellipse label="p_{0,4}" ];
+// id = 12, graphName = p_{0,5}
+"12-0" [ shape=ellipse label="p_{0,5}" ];
+// id = 15, graphName = p_{0,6}
+"15-0" [ shape=ellipse label="p_{0,6}" ];
+// id = 17, graphName = p_{0,7}
+"17-0" [ shape=ellipse label="p_{0,7}" ];
 // id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
 "0-0" -> "1-0" [ label="r_{0}" ];
 // id = 4{ 'p_{0,0}' }, 'Mark for conversion', { 'p_{0,1}' }
@@ -24,4 +30,14 @@ digraph g {
 "5-0" -> "9-0" [ label="r_{0}" ];
 // id = 11{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,4}' }
 "3-0" -> "9-0" [ label="r_{2}" ];
+// id = 13{ 'p_{0,4}' }, 'Mark for conversion', { 'p_{0,5}' }
+"9-0" -> "12-0" [ label="r_{0}" ];
+// id = 14{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,5}' }
+"7-0" -> "12-0" [ label="r_{2}" ];
+// id = 16{ 'p_{0,4}' }, 'reattachExternalEdge', { 'p_{0,6}' }
+"9-0" -> "15-0" [ label="r_{2}" ];
+// id = 18{ 'p_{0,6}' }, 'Mark for conversion', { 'p_{0,7}' }
+"15-0" -> "17-0" [ label="r_{0}" ];
+// id = 19{ 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,7}' }
+"12-0" -> "17-0" [ label="r_{2}" ];
 }
