@@ -1,0 +1,122 @@
+digraph g {
+legend_varNames [ label="varNum: varName" ]
+legend_varNames_0 [ label="0: x_74_out(p_{0,4})" ]
+legend_varNames_1 [ label="1: x_72_out(p_{0,2})" ]
+legend_varNames_2 [ label="2: x_71_out(p_{0,1})" ]
+legend_varNames_3 [ label="3: x_73_out(p_{0,3})" ]
+legend_varNames_4 [ label="4: x_69_out(Start)" ]
+legend_varNames_5 [ label="5: x_70_out(p_{0,0})" ]
+legend_varNames_6 [ label="6: x_75_out(p_{0,5})" ]
+legend_varNames_7 [ label="7: x_52_in(p_{0,12})" ]
+legend_varNames_8 [ label="8: x_47_in(p_{0,7})" ]
+legend_varNames_9 [ label="9: x_48_in(p_{0,8})" ]
+legend_varNames_10 [ label="10: x_44_in(p_{0,4})" ]
+legend_varNames_11 [ label="11: x_50_in(p_{0,10})" ]
+legend_varNames_12 [ label="12: x_81_out(p_{0,11})" ]
+legend_varNames_13 [ label="13: x_42_in(p_{0,2})" ]
+legend_varNames_14 [ label="14: x_79_out(p_{0,9})" ]
+legend_varNames_15 [ label="15: x_53_in(p_{0,13})" ]
+legend_varNames_16 [ label="16: x_46_in(p_{0,6})" ]
+legend_varNames_17 [ label="17: x_49_in(p_{0,9})" ]
+legend_varNames_18 [ label="18: x_41_in(p_{0,1})" ]
+legend_varNames_19 [ label="19: x_78_out(p_{0,8})" ]
+legend_varNames_20 [ label="20: x_83_out(p_{0,13})" ]
+legend_varNames_21 [ label="21: x_51_in(p_{0,11})" ]
+legend_varNames_22 [ label="22: x_43_in(p_{0,3})" ]
+legend_varNames_23 [ label="23: x_82_out(p_{0,12})" ]
+legend_varNames_24 [ label="24: x_80_out(p_{0,10})" ]
+legend_varNames_25 [ label="25: x_45_in(p_{0,5})" ]
+legend_varNames_26 [ label="26: x_76_out(p_{0,6})" ]
+legend_varNames_27 [ label="27: x_40_in(p_{0,0})" ]
+legend_varNames_28 [ label="28: x_77_out(p_{0,7})" ]
+legend_varNames_29 [ label="29: x_39_in(Start)" ]
+legend_varNames_30 [ label="30: x_3_edge(6)" ]
+legend_varNames_31 [ label="31: x_1_edge(2)" ]
+legend_varNames_32 [ label="32: x_4_edge(8)" ]
+legend_varNames_33 [ label="33: x_5_edge(10)" ]
+legend_varNames_34 [ label="34: x_16_edge(27)" ]
+legend_varNames_35 [ label="35: x_2_edge(4)" ]
+legend_varNames_36 [ label="36: x_13_edge(23)" ]
+legend_varNames_37 [ label="37: x_6_edge(11)" ]
+legend_varNames_38 [ label="38: x_12_edge(21)" ]
+legend_varNames_39 [ label="39: x_7_edge(13)" ]
+legend_varNames_40 [ label="40: x_8_edge(15)" ]
+legend_varNames_41 [ label="41: x_9_edge(17)" ]
+legend_varNames_42 [ label="42: x_10_edge(18)" ]
+legend_varNames_43 [ label="43: x_11_edge(20)" ]
+legend_varNames_44 [ label="44: x_14_edge(24)" ]
+legend_varNames_45 [ label="45: x_15_edge(26)" ]
+legend_varNames_46 [ label="46: x_19_edge(33)" ]
+legend_varNames_47 [ label="47: x_18_edge(30)" ]
+legend_varNames_48 [ label="48: x_17_edge(29)" ]
+legend_varNames -> legend_varNames_0
+legend_varNames_0 -> legend_varNames_1
+legend_varNames_1 -> legend_varNames_2
+legend_varNames_2 -> legend_varNames_3
+legend_varNames_3 -> legend_varNames_4
+legend_varNames_4 -> legend_varNames_5
+legend_varNames_5 -> legend_varNames_6
+legend_varNames_6 -> legend_varNames_7
+legend_varNames_7 -> legend_varNames_8
+legend_varNames_8 -> legend_varNames_9
+legend_varNames_9 -> legend_varNames_10
+legend_varNames_10 -> legend_varNames_11
+legend_varNames_11 -> legend_varNames_12
+legend_varNames_12 -> legend_varNames_13
+legend_varNames_13 -> legend_varNames_14
+legend_varNames_14 -> legend_varNames_15
+legend_varNames_15 -> legend_varNames_16
+legend_varNames_16 -> legend_varNames_17
+legend_varNames_17 -> legend_varNames_18
+legend_varNames_18 -> legend_varNames_19
+legend_varNames_19 -> legend_varNames_20
+legend_varNames_20 -> legend_varNames_21
+legend_varNames_21 -> legend_varNames_22
+legend_varNames_22 -> legend_varNames_23
+legend_varNames_23 -> legend_varNames_24
+legend_varNames_24 -> legend_varNames_25
+legend_varNames_25 -> legend_varNames_26
+legend_varNames_26 -> legend_varNames_27
+legend_varNames_27 -> legend_varNames_28
+legend_varNames_28 -> legend_varNames_29
+legend_varNames_29 -> legend_varNames_30
+legend_varNames_30 -> legend_varNames_31
+legend_varNames_31 -> legend_varNames_32
+legend_varNames_32 -> legend_varNames_33
+legend_varNames_33 -> legend_varNames_34
+legend_varNames_34 -> legend_varNames_35
+legend_varNames_35 -> legend_varNames_36
+legend_varNames_36 -> legend_varNames_37
+legend_varNames_37 -> legend_varNames_38
+legend_varNames_38 -> legend_varNames_39
+legend_varNames_39 -> legend_varNames_40
+legend_varNames_40 -> legend_varNames_41
+legend_varNames_41 -> legend_varNames_42
+legend_varNames_42 -> legend_varNames_43
+legend_varNames_43 -> legend_varNames_44
+legend_varNames_44 -> legend_varNames_45
+legend_varNames_45 -> legend_varNames_46
+legend_varNames_46 -> legend_varNames_47
+legend_varNames_47 -> legend_varNames_48
+legend_colours_0 [ label="Meaning of colours and line style" ]
+legend_colours_1 [ label="Not yet processed at all"  ]
+legend_colours_0 -> legend_colours_1
+legend_colours_2 [ label="Infeasible" color=gray ]
+legend_colours_1 -> legend_colours_2
+legend_colours_3 [ label="Infeasible by user request" color=purple style=dashed ]
+legend_colours_2 -> legend_colours_3
+legend_colours_4 [ label="Infeasible due to absGap" color=purple ]
+legend_colours_3 -> legend_colours_4
+legend_colours_5 [ label="Currently not optimal" style=dashed ]
+legend_colours_4 -> legend_colours_5
+legend_colours_6 [ label="Feasible" color=green ]
+legend_colours_5 -> legend_colours_6
+legend_colours_7 [ label="Feasible, implicitly solved" color=green style=dashed ]
+legend_colours_6 -> legend_colours_7
+legend_colours_8 [ label="Duplicate solution" color=blue ]
+legend_colours_7 -> legend_colours_8
+legend_colours_9 [ label="Current node at exit" fontcolor=red ]
+legend_colours_8 -> legend_colours_9
+legend_text [ label="Text: varNum, objVal, solutionId" ]
+1 [ label="1, 0" color=gray fontcolor=red ] 
+}

@@ -6,34 +6,70 @@ digraph g {
 "1-0" [ shape=ellipse label="p_{0,0}" ];
 // id = 3, graphName = p_{0,1}
 "3-0" [ shape=ellipse label="p_{0,1}" ];
-// id = 4, graphName = p_{0,2}
-"4-0" [ shape=ellipse label="p_{0,2}" ];
-// id = 6, graphName = p_{0,3}
-"6-0" [ shape=ellipse label="p_{0,3}" ];
-// id = 8, graphName = p_{0,4}
-"8-0" [ shape=ellipse label="p_{0,4}" ];
-// id = 10, graphName = Goal
-"10-0" [ shape=ellipse label="Goal" ];
-// id = 5{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,1}' 'p_{0,2}' }
-"5-0" [ shape=box label="r_{1}" ];
-// id = 7{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,3}' }
-"7-0" [ shape=box label="r_{1}" ];
-// id = 9{ 'p_{0,3}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,4}' }
-"9-0" [ shape=box label="r_{1}" ];
+// id = 5, graphName = p_{0,2}
+"5-0" [ shape=ellipse label="p_{0,2}" ];
+// id = 7, graphName = p_{0,3}
+"7-0" [ shape=ellipse label="p_{0,3}" ];
+// id = 9, graphName = p_{0,4}
+"9-0" [ shape=ellipse label="p_{0,4}" ];
+// id = 12, graphName = p_{0,5}
+"12-0" [ shape=ellipse label="p_{0,5}" ];
+// id = 14, graphName = p_{0,6}
+"14-0" [ shape=ellipse label="p_{0,6}" ];
+// id = 16, graphName = p_{0,7}
+"16-0" [ shape=ellipse label="p_{0,7}" ];
+// id = 19, graphName = p_{0,8}
+"19-0" [ shape=ellipse label="p_{0,8}" ];
+// id = 22, graphName = p_{0,9}
+"22-0" [ shape=ellipse label="p_{0,9}" ];
+// id = 25, graphName = p_{0,10}
+"25-0" [ shape=ellipse label="p_{0,10}" ];
+// id = 28, graphName = p_{0,11}
+"28-0" [ shape=ellipse label="p_{0,11}" ];
+// id = 31, graphName = p_{0,12}
+"31-0" [ shape=ellipse label="p_{0,12}" ];
+// id = 32, graphName = p_{0,13}
+"32-0" [ shape=ellipse label="p_{0,13}" ];
+// id = 33{ 'p_{0,11}' }, 'RemoveSingleR', { 'p_{0,12}' 'p_{0,13}' }
+"33-0" [ shape=box label="r_{1}" ];
 // id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
 "0-0" -> "1-0" [ label="r_{0}" ];
-// id = 5{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,1}' 'p_{0,2}' }
-"1-0" -> "5-0" [ ];
-"5-0" -> "3-0" [ ];
-"5-0" -> "4-0" [ ];
-// id = 7{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,3}' }
-"3-0" -> "7-0" [ ];
-"7-0" -> "4-0" [ ];
-"7-0" -> "6-0" [ ];
-// id = 9{ 'p_{0,3}' }, 'RemoveSingleR', { 'p_{0,2}' 'p_{0,4}' }
-"6-0" -> "9-0" [ ];
-"9-0" -> "4-0" [ ];
-"9-0" -> "8-0" [ ];
-// id = 11{ 'p_{0,4}' }, 'unmarkCollapsedNode', { 'Goal' }
-"8-0" -> "10-0" [ label="r_{5}" ];
+// id = 4{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,1}' }
+"1-0" -> "3-0" [ label="r_{2}" ];
+// id = 6{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,2}' }
+"1-0" -> "5-0" [ label="r_{2}" ];
+// id = 8{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,3}' }
+"3-0" -> "7-0" [ label="r_{2}" ];
+// id = 10{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,4}' }
+"3-0" -> "9-0" [ label="r_{2}" ];
+// id = 11{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' }
+"5-0" -> "9-0" [ label="r_{2}" ];
+// id = 13{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,5}' }
+"5-0" -> "12-0" [ label="r_{2}" ];
+// id = 15{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,6}' }
+"7-0" -> "14-0" [ label="r_{2}" ];
+// id = 17{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,7}' }
+"7-0" -> "16-0" [ label="r_{2}" ];
+// id = 18{ 'p_{0,4}' }, 'reattachExternalEdge', { 'p_{0,7}' }
+"9-0" -> "16-0" [ label="r_{2}" ];
+// id = 20{ 'p_{0,4}' }, 'reattachExternalEdge', { 'p_{0,8}' }
+"9-0" -> "19-0" [ label="r_{2}" ];
+// id = 21{ 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,8}' }
+"12-0" -> "19-0" [ label="r_{2}" ];
+// id = 23{ 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,9}' }
+"14-0" -> "22-0" [ label="r_{2}" ];
+// id = 24{ 'p_{0,7}' }, 'reattachExternalEdge', { 'p_{0,9}' }
+"16-0" -> "22-0" [ label="r_{2}" ];
+// id = 26{ 'p_{0,7}' }, 'reattachExternalEdge', { 'p_{0,10}' }
+"16-0" -> "25-0" [ label="r_{2}" ];
+// id = 27{ 'p_{0,8}' }, 'reattachExternalEdge', { 'p_{0,10}' }
+"19-0" -> "25-0" [ label="r_{2}" ];
+// id = 29{ 'p_{0,9}' }, 'reattachExternalEdge', { 'p_{0,11}' }
+"22-0" -> "28-0" [ label="r_{2}" ];
+// id = 30{ 'p_{0,10}' }, 'reattachExternalEdge', { 'p_{0,11}' }
+"25-0" -> "28-0" [ label="r_{2}" ];
+// id = 33{ 'p_{0,11}' }, 'RemoveSingleR', { 'p_{0,12}' 'p_{0,13}' }
+"28-0" -> "33-0" [ ];
+"33-0" -> "31-0" [ ];
+"33-0" -> "32-0" [ ];
 }

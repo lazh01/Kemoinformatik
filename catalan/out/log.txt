@@ -8,19 +8,23 @@ Repeat, limit = 1000000000
    Substrat 1
    Got 2 graphs
    Substrat 2
-   Got 1 graphs
+   Got 3 graphs
    Substrat 3
-   Got 1 graphs
+   Got 3 graphs
    Substrat 4
-   Got 1 graphs
+   Got 2 graphs
    Substrat 5
+   Got 1 graphs
+   Substrat 6
+   Got 2 graphs
+   Substrat 7
    Got 0 graphs
 Using user defined objective function: 0
 Flow: ==========================================================================
 DG: DGRuleComp(0)
 Base: --------------------------------------------------------------------------
 Sources: 'Start' 
-Sinks:   'Goal' 
+Sinks:   
 Allow hyper-loops: false
 AllowReverse:      false
 AllowIOReverse: true
@@ -39,20 +43,20 @@ absGap: 1073741824
 maxNumSolutions: 1
 enumerationVarSpecifier: <default>
 transitEnumeration:
-Base	#exploded transit edges	7
-Base	#exploded transit edges no empty	7
-Base	#transit edges, no opt	24
+Base	#exploded transit edges	15
+Base	#exploded transit edges no empty	15
+Base	#transit edges, no opt	80
 Base	#fixed variables	0
 Flow	Adding user variables
 Flow	Setting objective function
 Notice: linear expression '0' is 0.
 Flow	Adding user constraints
 FlowBase	model created
-Flow	num variables	73
+Flow	num variables	173
 Solving using EnumerateBy
-Enumeration by variable set (19 variables)
+Enumeration by variable set (49 variables)
 ============================================================
-AbstractSolver:  non-fixed enumeration vars: 7
+AbstractSolver:  non-fixed enumeration vars: 20
 Solving root node.
 CPXPARAM_TimeLimit                               1073741824
 CPXPARAM_Threads                                 1
@@ -60,19 +64,19 @@ CPXPARAM_MIP_Tolerances_MIPGap                   0
 CPXPARAM_Emphasis_MIP                            2
 CPXPARAM_MIP_Pool_Intensity                      4
 CPXPARAM_MIP_Limits_Populate                     1
-Row 'c58' infeasible, all entries at implied bounds.
-Presolve time = 0.00 sec. (0.03 ticks)
+Infeasibility row 'c62':  0  = -1.
+Presolve time = 0.00 sec. (0.08 ticks)
 
 Root node processing (before b&c):
-  Real time             =    0.00 sec. (0.03 ticks)
+  Real time             =    0.00 sec. (0.10 ticks)
 Sequential b&c:
   Real time             =    0.00 sec. (0.00 ticks)
                           ------------
-Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+Total (root+branch&cut) =    0.00 sec. (0.10 ticks)
 Flow	num solutions	0
 Flow	Calculation done
 End of code from 'doIt.py'
 
-real	0m0.433s
-user	0m0.102s
-sys	0m0.036s
+real	0m0.818s
+user	0m0.219s
+sys	0m0.054s
