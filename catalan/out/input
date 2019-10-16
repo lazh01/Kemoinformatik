@@ -56,6 +56,6 @@ def include(fName, checkDup=True, putDup=True, skipDup=True):
 mod.include = include
 # From command line arguments
 levelFile = "levels/level_1.gml"
-steps = 1
+steps = 3
 include("doIt.py")
 # PYTHONPATH=::/mnt/Shared/jlandersen/shared/lib:/mnt/Shared/jlandersen/shared/lib:/home/selar16/keminf/Kemoinformatik/catalan
