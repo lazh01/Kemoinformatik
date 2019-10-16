@@ -1,0 +1,586 @@
+digraph g {
+
+// id = 0, graphName = Start
+"0-0" [ shape=ellipse label="Start" ];
+// id = 1, graphName = p_{0,0}
+"1-0" [ shape=ellipse label="p_{0,0}" ];
+// id = 3, graphName = p_{0,1}
+"3-0" [ shape=ellipse label="p_{0,1}" ];
+// id = 5, graphName = p_{0,2}
+"5-0" [ shape=ellipse label="p_{0,2}" ];
+// id = 7, graphName = p_{0,3}
+"7-0" [ shape=ellipse label="p_{0,3}" ];
+// id = 8, graphName = p_{0,4}
+"8-0" [ shape=ellipse label="p_{0,4}" ];
+// id = 10, graphName = p_{0,5}
+"10-0" [ shape=ellipse label="p_{0,5}" ];
+// id = 12, graphName = p_{0,6}
+"12-0" [ shape=ellipse label="p_{0,6}" ];
+// id = 14, graphName = p_{0,7}
+"14-0" [ shape=ellipse label="p_{0,7}" ];
+// id = 16, graphName = p_{0,8}
+"16-0" [ shape=ellipse label="p_{0,8}" ];
+// id = 18, graphName = p_{0,9}
+"18-0" [ shape=ellipse label="p_{0,9}" ];
+// id = 20, graphName = p_{0,10}
+"20-0" [ shape=ellipse label="p_{0,10}" ];
+// id = 22, graphName = p_{0,11}
+"22-0" [ shape=ellipse label="p_{0,11}" ];
+// id = 24, graphName = p_{0,12}
+"24-0" [ shape=ellipse label="p_{0,12}" ];
+// id = 28, graphName = p_{0,13}
+"28-0" [ shape=ellipse label="p_{0,13}" ];
+// id = 29, graphName = p_{0,14}
+"29-0" [ shape=ellipse label="p_{0,14}" ];
+// id = 31, graphName = p_{0,15}
+"31-0" [ shape=ellipse label="p_{0,15}" ];
+// id = 34, graphName = p_{0,16}
+"34-0" [ shape=ellipse label="p_{0,16}" ];
+// id = 36, graphName = p_{0,17}
+"36-0" [ shape=ellipse label="p_{0,17}" ];
+// id = 38, graphName = p_{0,18}
+"38-0" [ shape=ellipse label="p_{0,18}" ];
+// id = 40, graphName = p_{0,19}
+"40-0" [ shape=ellipse label="p_{0,19}" ];
+// id = 42, graphName = p_{0,20}
+"42-0" [ shape=ellipse label="p_{0,20}" ];
+// id = 44, graphName = p_{0,21}
+"44-0" [ shape=ellipse label="p_{0,21}" ];
+// id = 45, graphName = p_{0,22}
+"45-0" [ shape=ellipse label="p_{0,22}" ];
+// id = 48, graphName = p_{0,23}
+"48-0" [ shape=ellipse label="p_{0,23}" ];
+// id = 53, graphName = p_{0,24}
+"53-0" [ shape=ellipse label="p_{0,24}" ];
+// id = 55, graphName = p_{0,25}
+"55-0" [ shape=ellipse label="p_{0,25}" ];
+// id = 57, graphName = p_{0,26}
+"57-0" [ shape=ellipse label="p_{0,26}" ];
+// id = 68, graphName = p_{0,27}
+"68-0" [ shape=ellipse label="p_{0,27}" ];
+// id = 70, graphName = p_{0,28}
+"70-0" [ shape=ellipse label="p_{0,28}" ];
+// id = 71, graphName = p_{0,29}
+"71-0" [ shape=ellipse label="p_{0,29}" ];
+// id = 73, graphName = p_{0,30}
+"73-0" [ shape=ellipse label="p_{0,30}" ];
+// id = 75, graphName = p_{0,31}
+"75-0" [ shape=ellipse label="p_{0,31}" ];
+// id = 77, graphName = p_{0,32}
+"77-0" [ shape=ellipse label="p_{0,32}" ];
+// id = 79, graphName = p_{0,33}
+"79-0" [ shape=ellipse label="p_{0,33}" ];
+// id = 81, graphName = p_{0,34}
+"81-0" [ shape=ellipse label="p_{0,34}" ];
+// id = 84, graphName = p_{0,35}
+"84-0" [ shape=ellipse label="p_{0,35}" ];
+// id = 86, graphName = p_{0,36}
+"86-0" [ shape=ellipse label="p_{0,36}" ];
+// id = 88, graphName = p_{0,37}
+"88-0" [ shape=ellipse label="p_{0,37}" ];
+// id = 90, graphName = p_{0,38}
+"90-0" [ shape=ellipse label="p_{0,38}" ];
+// id = 92, graphName = p_{0,39}
+"92-0" [ shape=ellipse label="p_{0,39}" ];
+// id = 94, graphName = p_{0,40}
+"94-0" [ shape=ellipse label="p_{0,40}" ];
+// id = 96, graphName = p_{0,41}
+"96-0" [ shape=ellipse label="p_{0,41}" ];
+// id = 98, graphName = p_{0,42}
+"98-0" [ shape=ellipse label="p_{0,42}" ];
+// id = 100, graphName = p_{0,43}
+"100-0" [ shape=ellipse label="p_{0,43}" ];
+// id = 103, graphName = p_{0,44}
+"103-0" [ shape=ellipse label="p_{0,44}" ];
+// id = 105, graphName = p_{0,45}
+"105-0" [ shape=ellipse label="p_{0,45}" ];
+// id = 107, graphName = p_{0,46}
+"107-0" [ shape=ellipse label="p_{0,46}" ];
+// id = 109, graphName = p_{0,47}
+"109-0" [ shape=ellipse label="p_{0,47}" ];
+// id = 111, graphName = p_{0,48}
+"111-0" [ shape=ellipse label="p_{0,48}" ];
+// id = 113, graphName = p_{0,49}
+"113-0" [ shape=ellipse label="p_{0,49}" ];
+// id = 115, graphName = p_{0,50}
+"115-0" [ shape=ellipse label="p_{0,50}" ];
+// id = 117, graphName = p_{0,51}
+"117-0" [ shape=ellipse label="p_{0,51}" ];
+// id = 119, graphName = p_{0,52}
+"119-0" [ shape=ellipse label="p_{0,52}" ];
+// id = 121, graphName = p_{0,53}
+"121-0" [ shape=ellipse label="p_{0,53}" ];
+// id = 123, graphName = p_{0,54}
+"123-0" [ shape=ellipse label="p_{0,54}" ];
+// id = 126, graphName = p_{0,55}
+"126-0" [ shape=ellipse label="p_{0,55}" ];
+// id = 129, graphName = p_{0,56}
+"129-0" [ shape=ellipse label="p_{0,56}" ];
+// id = 131, graphName = p_{0,57}
+"131-0" [ shape=ellipse label="p_{0,57}" ];
+// id = 135, graphName = p_{0,58}
+"135-0" [ shape=ellipse label="p_{0,58}" ];
+// id = 137, graphName = p_{0,59}
+"137-0" [ shape=ellipse label="p_{0,59}" ];
+// id = 139, graphName = p_{0,60}
+"139-0" [ shape=ellipse label="p_{0,60}" ];
+// id = 141, graphName = p_{0,61}
+"141-0" [ shape=ellipse label="p_{0,61}" ];
+// id = 143, graphName = p_{0,62}
+"143-0" [ shape=ellipse label="p_{0,62}" ];
+// id = 145, graphName = p_{0,63}
+"145-0" [ shape=ellipse label="p_{0,63}" ];
+// id = 147, graphName = p_{0,64}
+"147-0" [ shape=ellipse label="p_{0,64}" ];
+// id = 149, graphName = p_{0,65}
+"149-0" [ shape=ellipse label="p_{0,65}" ];
+// id = 151, graphName = p_{0,66}
+"151-0" [ shape=ellipse label="p_{0,66}" ];
+// id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
+"9-0" [ shape=box label="r_{1}" ];
+// id = 13{ 'p_{0,0}' 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,6}' }
+"13-0" [ shape=box label="r_{2}" ];
+// id = 27{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,9}' }
+"27-0" [ shape=box label="r_{1}" ];
+// id = 30{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,13}' 'p_{0,14}' }
+"30-0" [ shape=box label="r_{1}" ];
+// id = 32{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,15}' }
+"32-0" [ shape=box label="r_{1}" ];
+// id = 35{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,16}' }
+"35-0" [ shape=box label="r_{1}" ];
+// id = 41{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,19}' }
+"41-0" [ shape=box label="r_{1}" ];
+// id = 43{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,20}' }
+"43-0" [ shape=box label="r_{1}" ];
+// id = 46{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,21}' 'p_{0,22}' }
+"46-0" [ shape=box label="r_{1}" ];
+// id = 50{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,16}' }
+"50-0" [ shape=box label="r_{2}" ];
+// id = 59{ 'p_{0,0}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,12}' }
+"59-0" [ shape=box label="r_{2}" ];
+// id = 60{ 'p_{0,0}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,11}' }
+"60-0" [ shape=box label="r_{2}" ];
+// id = 61{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,20}' }
+"61-0" [ shape=box label="r_{2}" ];
+// id = 62{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,21}' 'p_{0,22}' }
+"62-0" [ shape=box label="r_{2}" ];
+// id = 63{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,18}' }
+"63-0" [ shape=box label="r_{2}" ];
+// id = 64{ 'p_{0,0}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,20}' }
+"64-0" [ shape=box label="r_{2}" ];
+// id = 65{ 'p_{0,0}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,19}' }
+"65-0" [ shape=box label="r_{2}" ];
+// id = 66{ 'p_{0,0}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,26}' }
+"66-0" [ shape=box label="r_{2}" ];
+// id = 67{ 'p_{0,0}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,24}' }
+"67-0" [ shape=box label="r_{2}" ];
+// id = 69{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,27}' }
+"69-0" [ shape=box label="r_{2}" ];
+// id = 72{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,28}' 'p_{0,29}' }
+"72-0" [ shape=box label="r_{2}" ];
+// id = 74{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,30}' }
+"74-0" [ shape=box label="r_{2}" ];
+// id = 76{ 'p_{0,1}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,31}' }
+"76-0" [ shape=box label="r_{2}" ];
+// id = 78{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,32}' }
+"78-0" [ shape=box label="r_{2}" ];
+// id = 80{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,33}' }
+"80-0" [ shape=box label="r_{2}" ];
+// id = 82{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,34}' }
+"82-0" [ shape=box label="r_{2}" ];
+// id = 83{ 'p_{0,1}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,32}' }
+"83-0" [ shape=box label="r_{2}" ];
+// id = 85{ 'p_{0,1}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,35}' }
+"85-0" [ shape=box label="r_{2}" ];
+// id = 87{ 'p_{0,1}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,36}' }
+"87-0" [ shape=box label="r_{2}" ];
+// id = 89{ 'p_{0,1}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,37}' }
+"89-0" [ shape=box label="r_{2}" ];
+// id = 91{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,38}' }
+"91-0" [ shape=box label="r_{2}" ];
+// id = 93{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,39}' }
+"93-0" [ shape=box label="r_{2}" ];
+// id = 95{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,40}' }
+"95-0" [ shape=box label="r_{2}" ];
+// id = 97{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,41}' }
+"97-0" [ shape=box label="r_{2}" ];
+// id = 99{ 'p_{0,2}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,42}' }
+"99-0" [ shape=box label="r_{2}" ];
+// id = 101{ 'p_{0,2}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,43}' }
+"101-0" [ shape=box label="r_{2}" ];
+// id = 102{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,42}' }
+"102-0" [ shape=box label="r_{2}" ];
+// id = 104{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,44}' }
+"104-0" [ shape=box label="r_{2}" ];
+// id = 106{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,45}' }
+"106-0" [ shape=box label="r_{2}" ];
+// id = 108{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,46}' }
+"108-0" [ shape=box label="r_{2}" ];
+// id = 110{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,47}' }
+"110-0" [ shape=box label="r_{2}" ];
+// id = 112{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,48}' }
+"112-0" [ shape=box label="r_{2}" ];
+// id = 114{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,49}' }
+"114-0" [ shape=box label="r_{2}" ];
+// id = 116{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,50}' }
+"116-0" [ shape=box label="r_{2}" ];
+// id = 118{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,51}' }
+"118-0" [ shape=box label="r_{2}" ];
+// id = 120{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,52}' }
+"120-0" [ shape=box label="r_{2}" ];
+// id = 122{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,53}' }
+"122-0" [ shape=box label="r_{2}" ];
+// id = 124{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,54}' }
+"124-0" [ shape=box label="r_{2}" ];
+// id = 125{ 'p_{0,3}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,44}' }
+"125-0" [ shape=box label="r_{2}" ];
+// id = 127{ 'p_{0,3}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,55}' }
+"127-0" [ shape=box label="r_{2}" ];
+// id = 128{ 'p_{0,3}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,47}' }
+"128-0" [ shape=box label="r_{2}" ];
+// id = 130{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,56}' }
+"130-0" [ shape=box label="r_{2}" ];
+// id = 132{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,57}' }
+"132-0" [ shape=box label="r_{2}" ];
+// id = 133{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,51}' }
+"133-0" [ shape=box label="r_{2}" ];
+// id = 134{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,53}' }
+"134-0" [ shape=box label="r_{2}" ];
+// id = 136{ 'p_{0,5}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,58}' }
+"136-0" [ shape=box label="r_{2}" ];
+// id = 138{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,59}' }
+"138-0" [ shape=box label="r_{2}" ];
+// id = 140{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,60}' }
+"140-0" [ shape=box label="r_{2}" ];
+// id = 142{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,61}' }
+"142-0" [ shape=box label="r_{2}" ];
+// id = 144{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,62}' }
+"144-0" [ shape=box label="r_{2}" ];
+// id = 146{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,63}' }
+"146-0" [ shape=box label="r_{2}" ];
+// id = 148{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,64}' }
+"148-0" [ shape=box label="r_{2}" ];
+// id = 150{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,65}' }
+"150-0" [ shape=box label="r_{2}" ];
+// id = 152{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,66}' }
+"152-0" [ shape=box label="r_{2}" ];
+// id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
+"0-0" -> "1-0" [ label="r_{0}" ];
+// id = 4{ 'p_{0,0}' }, 'Mark for conversion', { 'p_{0,1}' }
+"1-0" -> "3-0" [ label="r_{0}" ];
+// id = 6{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,2}' }
+"1-0" -> "5-0" [ label="r_{1}" ];
+// id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
+"1-0" -> "9-0" [ ];
+"9-0" -> "7-0" [ ];
+"9-0" -> "8-0" [ ];
+// id = 11{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,5}' }
+"1-0" -> "10-0" [ label="r_{2}" ];
+// id = 13{ 'p_{0,0}' 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,6}' }
+"1-0" -> "13-0" [ ];
+"1-0" -> "13-0" [ ];
+"13-0" -> "12-0" [ ];
+// id = 15{ 'p_{0,1}' }, 'Mark for conversion', { 'p_{0,7}' }
+"3-0" -> "14-0" [ label="r_{0}" ];
+// id = 17{ 'p_{0,2}' }, 'Mark for conversion', { 'p_{0,8}' }
+"5-0" -> "16-0" [ label="r_{0}" ];
+// id = 19{ 'p_{0,3}' }, 'Mark for conversion', { 'p_{0,9}' }
+"7-0" -> "18-0" [ label="r_{0}" ];
+// id = 21{ 'p_{0,5}' }, 'Mark for conversion', { 'p_{0,10}' }
+"10-0" -> "20-0" [ label="r_{0}" ];
+// id = 23{ 'p_{0,6}' }, 'Mark for conversion', { 'p_{0,11}' }
+"12-0" -> "22-0" [ label="r_{0}" ];
+// id = 25{ 'p_{0,6}' }, 'Mark for conversion', { 'p_{0,12}' }
+"12-0" -> "24-0" [ label="r_{0}" ];
+// id = 26{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,8}' }
+"3-0" -> "16-0" [ label="r_{1}" ];
+// id = 27{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,9}' }
+"3-0" -> "27-0" [ ];
+"27-0" -> "8-0" [ ];
+"27-0" -> "18-0" [ ];
+// id = 30{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,13}' 'p_{0,14}' }
+"5-0" -> "30-0" [ ];
+"30-0" -> "28-0" [ ];
+"30-0" -> "29-0" [ ];
+// id = 32{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,15}' }
+"5-0" -> "32-0" [ ];
+"32-0" -> "8-0" [ ];
+"32-0" -> "31-0" [ ];
+// id = 33{ 'p_{0,3}' }, 'RemoveSingleR', { 'p_{0,15}' }
+"7-0" -> "31-0" [ label="r_{1}" ];
+// id = 35{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,16}' }
+"10-0" -> "35-0" [ ];
+"35-0" -> "8-0" [ ];
+"35-0" -> "34-0" [ ];
+// id = 37{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,17}' }
+"10-0" -> "36-0" [ label="r_{1}" ];
+// id = 39{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,18}' }
+"12-0" -> "38-0" [ label="r_{1}" ];
+// id = 41{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,19}' }
+"12-0" -> "41-0" [ ];
+"41-0" -> "8-0" [ ];
+"41-0" -> "40-0" [ ];
+// id = 43{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,20}' }
+"12-0" -> "43-0" [ ];
+"43-0" -> "8-0" [ ];
+"43-0" -> "42-0" [ ];
+// id = 46{ 'p_{0,6}' }, 'RemoveSingleR', { 'p_{0,21}' 'p_{0,22}' }
+"12-0" -> "46-0" [ ];
+"46-0" -> "44-0" [ ];
+"46-0" -> "45-0" [ ];
+// id = 47{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,10}' }
+"3-0" -> "20-0" [ label="r_{2}" ];
+// id = 49{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,23}' }
+"3-0" -> "48-0" [ label="r_{2}" ];
+// id = 50{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,16}' }
+"5-0" -> "50-0" [ ];
+"50-0" -> "8-0" [ ];
+"50-0" -> "34-0" [ ];
+// id = 51{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,17}' }
+"5-0" -> "36-0" [ label="r_{2}" ];
+// id = 52{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,16}' }
+"7-0" -> "34-0" [ label="r_{2}" ];
+// id = 54{ 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,24}' }
+"12-0" -> "53-0" [ label="r_{2}" ];
+// id = 56{ 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,25}' }
+"12-0" -> "55-0" [ label="r_{2}" ];
+// id = 58{ 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,26}' }
+"12-0" -> "57-0" [ label="r_{2}" ];
+// id = 59{ 'p_{0,0}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,12}' }
+"1-0" -> "59-0" [ ];
+"3-0" -> "59-0" [ ];
+"59-0" -> "24-0" [ ];
+// id = 60{ 'p_{0,0}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,11}' }
+"1-0" -> "60-0" [ ];
+"3-0" -> "60-0" [ ];
+"60-0" -> "22-0" [ ];
+// id = 61{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,20}' }
+"1-0" -> "61-0" [ ];
+"5-0" -> "61-0" [ ];
+"61-0" -> "8-0" [ ];
+"61-0" -> "42-0" [ ];
+// id = 62{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,21}' 'p_{0,22}' }
+"1-0" -> "62-0" [ ];
+"5-0" -> "62-0" [ ];
+"62-0" -> "44-0" [ ];
+"62-0" -> "45-0" [ ];
+// id = 63{ 'p_{0,0}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,18}' }
+"1-0" -> "63-0" [ ];
+"5-0" -> "63-0" [ ];
+"63-0" -> "38-0" [ ];
+// id = 64{ 'p_{0,0}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,20}' }
+"1-0" -> "64-0" [ ];
+"7-0" -> "64-0" [ ];
+"64-0" -> "42-0" [ ];
+// id = 65{ 'p_{0,0}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,19}' }
+"1-0" -> "65-0" [ ];
+"7-0" -> "65-0" [ ];
+"65-0" -> "40-0" [ ];
+// id = 66{ 'p_{0,0}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,26}' }
+"1-0" -> "66-0" [ ];
+"10-0" -> "66-0" [ ];
+"66-0" -> "57-0" [ ];
+// id = 67{ 'p_{0,0}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,24}' }
+"1-0" -> "67-0" [ ];
+"10-0" -> "67-0" [ ];
+"67-0" -> "53-0" [ ];
+// id = 69{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,27}' }
+"1-0" -> "69-0" [ ];
+"12-0" -> "69-0" [ ];
+"69-0" -> "68-0" [ ];
+// id = 72{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,28}' 'p_{0,29}' }
+"1-0" -> "72-0" [ ];
+"12-0" -> "72-0" [ ];
+"72-0" -> "70-0" [ ];
+"72-0" -> "71-0" [ ];
+// id = 74{ 'p_{0,0}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,30}' }
+"1-0" -> "74-0" [ ];
+"12-0" -> "74-0" [ ];
+"74-0" -> "73-0" [ ];
+// id = 76{ 'p_{0,1}' 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,31}' }
+"3-0" -> "76-0" [ ];
+"3-0" -> "76-0" [ ];
+"76-0" -> "75-0" [ ];
+// id = 78{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,32}' }
+"3-0" -> "78-0" [ ];
+"5-0" -> "78-0" [ ];
+"78-0" -> "8-0" [ ];
+"78-0" -> "77-0" [ ];
+// id = 80{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,33}' }
+"3-0" -> "80-0" [ ];
+"5-0" -> "80-0" [ ];
+"80-0" -> "45-0" [ ];
+"80-0" -> "79-0" [ ];
+// id = 82{ 'p_{0,1}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,34}' }
+"3-0" -> "82-0" [ ];
+"5-0" -> "82-0" [ ];
+"82-0" -> "81-0" [ ];
+// id = 83{ 'p_{0,1}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,32}' }
+"3-0" -> "83-0" [ ];
+"7-0" -> "83-0" [ ];
+"83-0" -> "77-0" [ ];
+// id = 85{ 'p_{0,1}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,35}' }
+"3-0" -> "85-0" [ ];
+"7-0" -> "85-0" [ ];
+"85-0" -> "84-0" [ ];
+// id = 87{ 'p_{0,1}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,36}' }
+"3-0" -> "87-0" [ ];
+"10-0" -> "87-0" [ ];
+"87-0" -> "86-0" [ ];
+// id = 89{ 'p_{0,1}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,37}' }
+"3-0" -> "89-0" [ ];
+"10-0" -> "89-0" [ ];
+"89-0" -> "88-0" [ ];
+// id = 91{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,38}' }
+"3-0" -> "91-0" [ ];
+"12-0" -> "91-0" [ ];
+"91-0" -> "90-0" [ ];
+// id = 93{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,39}' }
+"3-0" -> "93-0" [ ];
+"12-0" -> "93-0" [ ];
+"93-0" -> "71-0" [ ];
+"93-0" -> "92-0" [ ];
+// id = 95{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,40}' }
+"3-0" -> "95-0" [ ];
+"12-0" -> "95-0" [ ];
+"95-0" -> "94-0" [ ];
+// id = 97{ 'p_{0,1}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,41}' }
+"3-0" -> "97-0" [ ];
+"12-0" -> "97-0" [ ];
+"97-0" -> "96-0" [ ];
+// id = 99{ 'p_{0,2}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,42}' }
+"5-0" -> "99-0" [ ];
+"5-0" -> "99-0" [ ];
+"99-0" -> "8-0" [ ];
+"99-0" -> "98-0" [ ];
+// id = 101{ 'p_{0,2}' 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,43}' }
+"5-0" -> "101-0" [ ];
+"5-0" -> "101-0" [ ];
+"101-0" -> "45-0" [ ];
+"101-0" -> "100-0" [ ];
+// id = 102{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,42}' }
+"5-0" -> "102-0" [ ];
+"7-0" -> "102-0" [ ];
+"102-0" -> "98-0" [ ];
+// id = 104{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,44}' }
+"5-0" -> "104-0" [ ];
+"7-0" -> "104-0" [ ];
+"104-0" -> "8-0" [ ];
+"104-0" -> "103-0" [ ];
+// id = 106{ 'p_{0,2}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,45}' }
+"5-0" -> "106-0" [ ];
+"7-0" -> "106-0" [ ];
+"106-0" -> "45-0" [ ];
+"106-0" -> "105-0" [ ];
+// id = 108{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,46}' }
+"5-0" -> "108-0" [ ];
+"10-0" -> "108-0" [ ];
+"108-0" -> "107-0" [ ];
+// id = 110{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,47}' }
+"5-0" -> "110-0" [ ];
+"10-0" -> "110-0" [ ];
+"110-0" -> "8-0" [ ];
+"110-0" -> "109-0" [ ];
+// id = 112{ 'p_{0,2}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,48}' }
+"5-0" -> "112-0" [ ];
+"10-0" -> "112-0" [ ];
+"112-0" -> "45-0" [ ];
+"112-0" -> "111-0" [ ];
+// id = 114{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,49}' }
+"5-0" -> "114-0" [ ];
+"12-0" -> "114-0" [ ];
+"114-0" -> "113-0" [ ];
+// id = 116{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,50}' }
+"5-0" -> "116-0" [ ];
+"12-0" -> "116-0" [ ];
+"116-0" -> "71-0" [ ];
+"116-0" -> "115-0" [ ];
+// id = 118{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,51}' }
+"5-0" -> "118-0" [ ];
+"12-0" -> "118-0" [ ];
+"118-0" -> "8-0" [ ];
+"118-0" -> "117-0" [ ];
+// id = 120{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,52}' }
+"5-0" -> "120-0" [ ];
+"12-0" -> "120-0" [ ];
+"120-0" -> "45-0" [ ];
+"120-0" -> "119-0" [ ];
+// id = 122{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,4}' 'p_{0,53}' }
+"5-0" -> "122-0" [ ];
+"12-0" -> "122-0" [ ];
+"122-0" -> "8-0" [ ];
+"122-0" -> "121-0" [ ];
+// id = 124{ 'p_{0,2}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,22}' 'p_{0,54}' }
+"5-0" -> "124-0" [ ];
+"12-0" -> "124-0" [ ];
+"124-0" -> "45-0" [ ];
+"124-0" -> "123-0" [ ];
+// id = 125{ 'p_{0,3}' 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,44}' }
+"7-0" -> "125-0" [ ];
+"7-0" -> "125-0" [ ];
+"125-0" -> "103-0" [ ];
+// id = 127{ 'p_{0,3}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,55}' }
+"7-0" -> "127-0" [ ];
+"10-0" -> "127-0" [ ];
+"127-0" -> "126-0" [ ];
+// id = 128{ 'p_{0,3}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,47}' }
+"7-0" -> "128-0" [ ];
+"10-0" -> "128-0" [ ];
+"128-0" -> "109-0" [ ];
+// id = 130{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,56}' }
+"7-0" -> "130-0" [ ];
+"12-0" -> "130-0" [ ];
+"130-0" -> "129-0" [ ];
+// id = 132{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,57}' }
+"7-0" -> "132-0" [ ];
+"12-0" -> "132-0" [ ];
+"132-0" -> "71-0" [ ];
+"132-0" -> "131-0" [ ];
+// id = 133{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,51}' }
+"7-0" -> "133-0" [ ];
+"12-0" -> "133-0" [ ];
+"133-0" -> "117-0" [ ];
+// id = 134{ 'p_{0,3}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,53}' }
+"7-0" -> "134-0" [ ];
+"12-0" -> "134-0" [ ];
+"134-0" -> "121-0" [ ];
+// id = 136{ 'p_{0,5}' 'p_{0,5}' }, 'reattachExternalEdge', { 'p_{0,58}' }
+"10-0" -> "136-0" [ ];
+"10-0" -> "136-0" [ ];
+"136-0" -> "135-0" [ ];
+// id = 138{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,59}' }
+"10-0" -> "138-0" [ ];
+"12-0" -> "138-0" [ ];
+"138-0" -> "137-0" [ ];
+// id = 140{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,60}' }
+"10-0" -> "140-0" [ ];
+"12-0" -> "140-0" [ ];
+"140-0" -> "71-0" [ ];
+"140-0" -> "139-0" [ ];
+// id = 142{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,61}' }
+"10-0" -> "142-0" [ ];
+"12-0" -> "142-0" [ ];
+"142-0" -> "141-0" [ ];
+// id = 144{ 'p_{0,5}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,62}' }
+"10-0" -> "144-0" [ ];
+"12-0" -> "144-0" [ ];
+"144-0" -> "143-0" [ ];
+// id = 146{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,63}' }
+"12-0" -> "146-0" [ ];
+"12-0" -> "146-0" [ ];
+"146-0" -> "145-0" [ ];
+// id = 148{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,64}' }
+"12-0" -> "148-0" [ ];
+"12-0" -> "148-0" [ ];
+"148-0" -> "147-0" [ ];
+// id = 150{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,65}' }
+"12-0" -> "150-0" [ ];
+"12-0" -> "150-0" [ ];
+"150-0" -> "71-0" [ ];
+"150-0" -> "149-0" [ ];
+// id = 152{ 'p_{0,6}' 'p_{0,6}' }, 'reattachExternalEdge', { 'p_{0,29}' 'p_{0,66}' }
+"12-0" -> "152-0" [ ];
+"12-0" -> "152-0" [ ];
+"152-0" -> "71-0" [ ];
+"152-0" -> "151-0" [ ];
+}
