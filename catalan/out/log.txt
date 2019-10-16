@@ -5,16 +5,64 @@ End of code from 'rules.py'
 Repeat, limit = 1
    Substrat 0
    Got 1 graphs
-Traceback (most recent call last):
-  File "out/input", line 60, in <module>
-    include("doIt.py")
-  File "out/input", line 48, in include
-    exec(code, globals())
-  File "doIt.py", line 34, in <module>
-    flow.addSink(goal)
-mod.libpymod.LogicError: Can not add sink. Graph 'Goal' is not a vertex graph of DG DGRuleComp(0)
+Using user defined objective function: 0
+Flow: ==========================================================================
+DG: DGRuleComp(0)
+Base: --------------------------------------------------------------------------
+Sources: 'Start' 
+Sinks:   
+Allow hyper-loops: false
+AllowReverse:      false
+AllowIOReverse: true
+Relaxed: false
+OverallCatalysis: --------------------------------------------------------------
+(disabled)
+OverallAutocatalysis: ----------------------------------------------------------
+(disabled)
+Non-module: --------------------------------------------------------------------
+ObjectiveFunction (user defined): 0
+Extra int variables:
+Extra constraints:
+1 == inFlow('Start')
+Solver:	EnumerateBy
+absGap: 1073741824
+maxNumSolutions: 1
+enumerationVarSpecifier: <default>
+transitEnumeration:
+Base	#exploded transit edges	2
+Base	#exploded transit edges no empty	2
+Base	#transit edges, no opt	4
+Base	#fixed variables	0
+Flow	Adding user variables
+Flow	Setting objective function
+Notice: linear expression '0' is 0.
+Flow	Adding user constraints
+FlowBase	model created
+Flow	num variables	20
+Solving using EnumerateBy
+Enumeration by variable set (5 variables)
+============================================================
+AbstractSolver:  non-fixed enumeration vars: 2
+Solving root node.
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     1
+Infeasibility row 'c14':  0  = -1.
+Presolve time = 0.00 sec. (0.01 ticks)
 
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+Flow	num solutions	0
+Flow	Calculation done
+End of code from 'doIt.py'
 
-real	0m0.641s
-user	0m0.206s
-sys	0m0.048s
+real	0m0.323s
+user	0m0.129s
+sys	0m0.018s

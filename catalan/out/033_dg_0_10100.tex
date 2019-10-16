@@ -1,9 +1,0 @@
-\begin{tikzpicture}[remember picture, scale=\modDGHyperScale]
-\input{\modInputPrefix/out/032_dg_0_10100_coord.tex}
-% id = 0, graphName = Start
-\node[modStyleDGHyperVertex, at=(v-coord-0-0)] (v-0-0) {{$\mathrm{Start}$}};
-% id = 1, graphName = p_{0,0}
-\node[modStyleDGHyperVertex, at=(v-coord-1-0)] (v-1-0) {{$\mathrm{p_{0,0}}$}};
-% id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
-\path[modStyleDGHyperConnector] (v-0-0) to node[auto, swap] {$\mathrm{r_{0}}$} (v-1-0);
-\end{tikzpicture}%
