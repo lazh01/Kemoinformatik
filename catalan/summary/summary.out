@@ -5,13 +5,17 @@
 \BOOKMARK [2][-]{subsection.0.2.1}{Mark for conversion}{section.0.2}% 5
 \BOOKMARK [2][-]{subsection.0.2.2}{RemoveSingleR}{section.0.2}% 6
 \BOOKMARK [2][-]{subsection.0.2.3}{reattachExternalEdge}{section.0.2}% 7
-\BOOKMARK [2][-]{subsection.0.2.4}{removeInterREdge}{section.0.2}% 8
-\BOOKMARK [2][-]{subsection.0.2.5}{unmarkCollapsedNode}{section.0.2}% 9
-\BOOKMARK [2][-]{subsection.0.2.6}{DG Hyper, dg\1370}{section.0.2}% 10
-\BOOKMARK [1][-]{section.0.3}{Product Graphs}{}% 11
-\BOOKMARK [2][-]{subsection.0.3.1}{p\137\1730,0\175}{section.0.3}% 12
-\BOOKMARK [2][-]{subsection.0.3.2}{p\137\1730,1\175}{section.0.3}% 13
-\BOOKMARK [2][-]{subsection.0.3.3}{p\137\1730,2\175}{section.0.3}% 14
-\BOOKMARK [2][-]{subsection.0.3.4}{p\137\1730,3\175}{section.0.3}% 15
-\BOOKMARK [2][-]{subsection.0.3.5}{p\137\1730,4\175}{section.0.3}% 16
-\BOOKMARK [1][-]{section.0.4}{Flow Solutions, id 0}{}% 17
+\BOOKMARK [2][-]{subsection.0.2.4}{removeAlreadyAttached}{section.0.2}% 8
+\BOOKMARK [2][-]{subsection.0.2.5}{removeInterREdge}{section.0.2}% 9
+\BOOKMARK [2][-]{subsection.0.2.6}{unmarkCollapsedNode}{section.0.2}% 10
+\BOOKMARK [2][-]{subsection.0.2.7}{DG Hyper, dg\1370}{section.0.2}% 11
+\BOOKMARK [1][-]{section.0.3}{Product Graphs}{}% 12
+\BOOKMARK [2][-]{subsection.0.3.1}{p\137\1730,0\175}{section.0.3}% 13
+\BOOKMARK [2][-]{subsection.0.3.2}{p\137\1730,1\175}{section.0.3}% 14
+\BOOKMARK [2][-]{subsection.0.3.3}{p\137\1730,2\175}{section.0.3}% 15
+\BOOKMARK [2][-]{subsection.0.3.4}{p\137\1730,3\175}{section.0.3}% 16
+\BOOKMARK [2][-]{subsection.0.3.5}{p\137\1730,4\175}{section.0.3}% 17
+\BOOKMARK [2][-]{subsection.0.3.6}{p\137\1730,5\175}{section.0.3}% 18
+\BOOKMARK [2][-]{subsection.0.3.7}{p\137\1730,6\175}{section.0.3}% 19
+\BOOKMARK [2][-]{subsection.0.3.8}{p\137\1730,7\175}{section.0.3}% 20
+\BOOKMARK [1][-]{section.0.4}{Flow Solutions, id 0}{}% 21

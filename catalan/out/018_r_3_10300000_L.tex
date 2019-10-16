@@ -1,6 +1,9 @@
 \begin{tikzpicture}[remember picture, scale=\modGraphScale, baseline={([yshift={-0.5ex}]current bounding box)}, solid]
 \input{\modInputPrefix/out/017_r_3_coord.tex}
-\node[modStyleGraphVertex, at=(\modIdPrefix v-coord-0)] (\modIdPrefix v-0) {R};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-coord-0)] (\modIdPrefix v-0) {A};
 \node[modStyleGraphVertex, at=(\modIdPrefix v-coord-1)] (\modIdPrefix v-1) {R};
-\modDrawSingleBond{0}{1}{1}{1}{NavyBlue, text=NavyBlue}{}
+\node[modStyleGraphVertex, at=(\modIdPrefix v-coord-2)] (\modIdPrefix v-2) {O};
+\modDrawSingleBond{0}{1}{1}{1}{}{}
+\modDrawSingleBond{0}{2}{1}{1}{}{}
+\modDrawSingleBond{1}{2}{1}{1}{NavyBlue, text=NavyBlue}{}
 \end{tikzpicture}
