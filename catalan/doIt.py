@@ -7,7 +7,8 @@ config.ilp.solverVerbose = True
 
 #goal = graphDFS("[0]", "Goal")
 goal = graphGML("goal.gml", "Goal")
-level = graphGML(levelFile, "Start")
+#level = graphGML(levelFile, "Start")
+level = graphGML("basic.gml", "Start")
 postSection("Loaded Graphs")
 g = inputGraphs
 for a in g: a.print()
