@@ -5,14 +5,17 @@ flowPrinter = DGFlowPrinter()
 flowPrinter.printUnfiltered = False
 config.ilp.solverVerbose = True
 
-goal = graphDFS("[0]", "Goal")
+#goal = graphDFS("[0]", "Goal")
+goal = graphGML("goal.gml", "Goal")
 level = graphGML(levelFile, "Start")
 postSection("Loaded Graphs")
+g=inputGraphs
 for a in g: a.print()
 
 include("rules.py")
 
 postSection("Loaded Rules")
+r=inputRules
 for a in r: a.print()
 
 # The following will need improvement, I guess ;)

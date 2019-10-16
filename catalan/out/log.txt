@@ -15,6 +15,6 @@ Traceback (most recent call last):
 mod.libpymod.LogicError: Can not add sink. Graph 'Goal' is not a vertex graph of DG DGRuleComp(0)
 
 
-real	0m0.555s
-user	0m0.191s
-sys	0m0.057s
+real	0m0.489s
+user	0m0.176s
+sys	0m0.037s
