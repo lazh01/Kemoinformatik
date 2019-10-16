@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=commonPreamble 2019.9.26)  16 OCT 2019 06:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=commonPreamble 2019.9.26)  16 OCT 2019 06:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\newcommand{\modPrefix}{/mnt/Shared/jlandersen/shared/bin/..}\newcommand{\mod
-FigureInput}{out/042_g_94_11310100.tex}\input{\modPrefix/share/mod/figureTempla
+FigureInput}{out/033_g_40_10300000.tex}\input{\modPrefix/share/mod/figureTempla
 te.tex}
 (/mnt/Shared/jlandersen/shared/bin/../share/mod/figureTemplate.tex
 (/usr/share/texmf/tex/latex/preview/preview.sty
@@ -19,8 +19,8 @@ Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 \pr@box=\box83
 \pr@output=\toks37
 )
-No file out/042_g_94_11310100.aux.
-\openout1 = `out/042_g_94_11310100.aux'.
+No file out/033_g_40_10300000.aux.
+\openout1 = `out/033_g_40_10300000.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -81,7 +81,7 @@ LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write5
-\openout5 = `out/042_g_94_11310100.out'.
+\openout5 = `out/033_g_40_10300000.out'.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -183,22 +183,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count333
 
-(./out/042_g_94_11310100.tex (./out/042_g_94_mol_coord.tex))
+(./out/033_g_40_10300000.tex (./out/033_g_40_coord.tex))
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
 
-(./out/042_g_94_11310100.aux)
+(./out/033_g_40_10300000.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 
 
-Package rerunfilecheck Warning: File `out/042_g_94_11310100.out' has changed.
+Package rerunfilecheck Warning: File `out/033_g_40_10300000.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `out/042_g_94_11310100.out':
+Package rerunfilecheck Info: Checksums for `out/033_g_40_10300000.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -207,15 +207,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 22.
  ) 
 Here is how much of TeX's memory you used:
- 1631 strings out of 462215
- 26691 string characters out of 5486072
- 719490 words of memory out of 5000000
- 35497 multiletter control sequences out of 15000+600000
+ 1658 strings out of 462215
+ 27153 string characters out of 5486072
+ 720490 words of memory out of 5000000
+ 35524 multiletter control sequences out of 15000+600000
  536329 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,60p,361b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,60p,357b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on out/042_g_94_11310100.pdf (1 page, 9716 bytes).
+Output written on out/033_g_40_10300000.pdf (1 page, 9776 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

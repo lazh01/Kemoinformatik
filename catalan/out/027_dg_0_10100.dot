@@ -10,84 +10,18 @@ digraph g {
 "5-0" [ shape=ellipse label="p_{0,2}" ];
 // id = 7, graphName = p_{0,3}
 "7-0" [ shape=ellipse label="p_{0,3}" ];
-// id = 8, graphName = p_{0,4}
-"8-0" [ shape=ellipse label="p_{0,4}" ];
-// id = 10, graphName = p_{0,5}
-"10-0" [ shape=ellipse label="p_{0,5}" ];
-// id = 12, graphName = p_{0,6}
-"12-0" [ shape=ellipse label="p_{0,6}" ];
-// id = 14, graphName = p_{0,7}
-"14-0" [ shape=ellipse label="p_{0,7}" ];
-// id = 16, graphName = p_{0,8}
-"16-0" [ shape=ellipse label="p_{0,8}" ];
-// id = 18, graphName = p_{0,9}
-"18-0" [ shape=ellipse label="p_{0,9}" ];
-// id = 22, graphName = p_{0,10}
-"22-0" [ shape=ellipse label="p_{0,10}" ];
-// id = 23, graphName = p_{0,11}
-"23-0" [ shape=ellipse label="p_{0,11}" ];
-// id = 25, graphName = p_{0,12}
-"25-0" [ shape=ellipse label="p_{0,12}" ];
-// id = 28, graphName = p_{0,13}
-"28-0" [ shape=ellipse label="p_{0,13}" ];
-// id = 30, graphName = p_{0,14}
-"30-0" [ shape=ellipse label="p_{0,14}" ];
-// id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
-"9-0" [ shape=box label="r_{1}" ];
-// id = 21{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,8}' }
-"21-0" [ shape=box label="r_{1}" ];
-// id = 24{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,10}' 'p_{0,11}' }
-"24-0" [ shape=box label="r_{1}" ];
-// id = 26{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,12}' }
-"26-0" [ shape=box label="r_{1}" ];
-// id = 29{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,13}' }
-"29-0" [ shape=box label="r_{1}" ];
+// id = 9, graphName = p_{0,4}
+"9-0" [ shape=ellipse label="p_{0,4}" ];
 // id = 2{ 'Start' }, 'Mark for conversion', { 'p_{0,0}' }
 "0-0" -> "1-0" [ label="r_{0}" ];
 // id = 4{ 'p_{0,0}' }, 'Mark for conversion', { 'p_{0,1}' }
 "1-0" -> "3-0" [ label="r_{0}" ];
-// id = 6{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,2}' }
-"1-0" -> "5-0" [ label="r_{1}" ];
-// id = 9{ 'p_{0,0}' }, 'RemoveSingleR', { 'p_{0,3}' 'p_{0,4}' }
-"1-0" -> "9-0" [ ];
-"9-0" -> "7-0" [ ];
-"9-0" -> "8-0" [ ];
-// id = 11{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,5}' }
-"1-0" -> "10-0" [ label="r_{2}" ];
-// id = 13{ 'p_{0,1}' }, 'Mark for conversion', { 'p_{0,6}' }
-"3-0" -> "12-0" [ label="r_{0}" ];
-// id = 15{ 'p_{0,2}' }, 'Mark for conversion', { 'p_{0,7}' }
-"5-0" -> "14-0" [ label="r_{0}" ];
-// id = 17{ 'p_{0,3}' }, 'Mark for conversion', { 'p_{0,8}' }
-"7-0" -> "16-0" [ label="r_{0}" ];
-// id = 19{ 'p_{0,5}' }, 'Mark for conversion', { 'p_{0,9}' }
-"10-0" -> "18-0" [ label="r_{0}" ];
-// id = 20{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,7}' }
-"3-0" -> "14-0" [ label="r_{1}" ];
-// id = 21{ 'p_{0,1}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,8}' }
-"3-0" -> "21-0" [ ];
-"21-0" -> "8-0" [ ];
-"21-0" -> "16-0" [ ];
-// id = 24{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,10}' 'p_{0,11}' }
-"5-0" -> "24-0" [ ];
-"24-0" -> "22-0" [ ];
-"24-0" -> "23-0" [ ];
-// id = 26{ 'p_{0,2}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,12}' }
-"5-0" -> "26-0" [ ];
-"26-0" -> "8-0" [ ];
-"26-0" -> "25-0" [ ];
-// id = 27{ 'p_{0,3}' }, 'RemoveSingleR', { 'p_{0,12}' }
-"7-0" -> "25-0" [ label="r_{1}" ];
-// id = 29{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,4}' 'p_{0,13}' }
-"10-0" -> "29-0" [ ];
-"29-0" -> "8-0" [ ];
-"29-0" -> "28-0" [ ];
-// id = 31{ 'p_{0,5}' }, 'RemoveSingleR', { 'p_{0,14}' }
-"10-0" -> "30-0" [ label="r_{1}" ];
-// id = 32{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,9}' }
-"3-0" -> "18-0" [ label="r_{2}" ];
-// id = 33{ 'p_{0,2}' }, 'reattachExternalEdge', { 'p_{0,14}' }
-"5-0" -> "30-0" [ label="r_{2}" ];
-// id = 34{ 'p_{0,3}' }, 'reattachExternalEdge', { 'p_{0,13}' }
-"7-0" -> "28-0" [ label="r_{2}" ];
+// id = 6{ 'p_{0,0}' }, 'reattachExternalEdge', { 'p_{0,2}' }
+"1-0" -> "5-0" [ label="r_{2}" ];
+// id = 8{ 'p_{0,1}' }, 'Mark for conversion', { 'p_{0,3}' }
+"3-0" -> "7-0" [ label="r_{0}" ];
+// id = 10{ 'p_{0,2}' }, 'Mark for conversion', { 'p_{0,4}' }
+"5-0" -> "9-0" [ label="r_{0}" ];
+// id = 11{ 'p_{0,1}' }, 'reattachExternalEdge', { 'p_{0,4}' }
+"3-0" -> "9-0" [ label="r_{2}" ];
 }
