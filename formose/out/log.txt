@@ -97,11 +97,11 @@ Root relaxation solution time = 0.00 sec. (0.32 ticks)
 *     0     0      integral     0        6.0000        6.0000       20    0.00%
 
 Root node processing (before b&c):
-  Real time             =    0.02 sec. (7.41 ticks)
+  Real time             =    0.01 sec. (7.41 ticks)
 Sequential b&c:
   Real time             =    0.00 sec. (0.00 ticks)
                           ------------
-Total (root+branch&cut) =    0.02 sec. (7.41 ticks)
+Total (root+branch&cut) =    0.01 sec. (7.41 ticks)
       Nodes              Solutions     
 #Total    #Open     #Total    #Accepted  #Solves   Obj. value  Time (s)
        1         1         0          0         1           6         0
@@ -215,11 +215,11 @@ Mixed integer rounding cuts applied:  2
 Lift and project cuts applied:  1
 
 Root node processing (before b&c):
-  Real time             =    0.02 sec. (9.34 ticks)
+  Real time             =    0.03 sec. (9.34 ticks)
 Sequential b&c:
   Real time             =    0.00 sec. (0.00 ticks)
                           ------------
-Total (root+branch&cut) =    0.02 sec. (9.34 ticks)
+Total (root+branch&cut) =    0.03 sec. (9.34 ticks)
        1         1         0          0         1          12         0
 Enumeration of solutions with value 12
 Ending search (by user request)
@@ -237,6 +237,6 @@ End of solution set
 ------------------------------------------------------------
 End of code from 'doStuff.py'
 
-real	0m1.171s
-user	0m0.296s
-sys	0m0.068s
+real	0m2.153s
+user	0m0.355s
+sys	0m0.117s
