@@ -80,7 +80,7 @@ Flow: ==========================================================================
 DG: DGRuleComp(0)
 Base: --------------------------------------------------------------------------
 Sources: 'Start' 
-Sinks:   
+Sinks:   'Goal' 
 Allow hyper-loops: false
 AllowReverse:      false
 AllowIOReverse: true
@@ -112,7 +112,7 @@ Flow	num variables	1432
 Solving using EnumerateBy
 Enumeration by variable set (436 variables)
 ============================================================
-AbstractSolver:  non-fixed enumeration vars: 213
+AbstractSolver:  non-fixed enumeration vars: 214
 Solving root node.
 CPXPARAM_TimeLimit                               1073741824
 CPXPARAM_Threads                                 1
@@ -133,6 +133,6 @@ Flow	num solutions	0
 Flow	Calculation done
 End of code from 'doIt.py'
 
-real	0m2.465s
-user	0m0.701s
-sys	0m0.147s
+real	0m2.523s
+user	0m0.722s
+sys	0m0.112s
