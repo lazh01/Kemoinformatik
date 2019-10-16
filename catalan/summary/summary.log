@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  16 OCT 2019 05:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  16 OCT 2019 05:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1869,219 +1869,127 @@ l.314 \newpage
 ] (./summary/all.tex
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3.
-<out/000_g_0_10300000.pdf, id=94, 6.8787pt x 9.5286pt>
+<out/000_g_0_10300000.pdf, id=84, 6.8787pt x 9.5286pt>
 File: out/000_g_0_10300000.pdf Graphic file (type pdf)
 <use out/000_g_0_10300000.pdf>
 Package pdftex.def Info: out/000_g_0_10300000.pdf  used on input line 3.
 (pdftex.def)             Requested size: 6.87866pt x 9.52855pt.
-<out/000_g_0_11310100.pdf, id=95, 6.8787pt x 9.5286pt>
+<out/000_g_0_11310100.pdf, id=85, 6.8787pt x 9.5286pt>
 File: out/000_g_0_11310100.pdf Graphic file (type pdf)
 <use out/000_g_0_11310100.pdf>
 Package pdftex.def Info: out/000_g_0_11310100.pdf  used on input line 3.
 (pdftex.def)             Requested size: 6.87866pt x 9.52855pt.
-<out/001_g_1_10300000.pdf, id=96, 144.81201pt x 147.46191pt>
+<out/001_g_1_10300000.pdf, id=86, 144.81201pt x 147.46191pt>
 File: out/001_g_1_10300000.pdf Graphic file (type pdf)
 <use out/001_g_1_10300000.pdf>
 Package pdftex.def Info: out/001_g_1_10300000.pdf  used on input line 4.
 (pdftex.def)             Requested size: 144.81165pt x 147.46153pt.
-<out/001_g_1_11310100.pdf, id=97, 144.81201pt x 147.46191pt>
+<out/001_g_1_11310100.pdf, id=87, 144.81201pt x 147.46191pt>
 File: out/001_g_1_11310100.pdf Graphic file (type pdf)
 <use out/001_g_1_11310100.pdf>
 Package pdftex.def Info: out/001_g_1_11310100.pdf  used on input line 4.
 (pdftex.def)             Requested size: 144.81165pt x 147.46153pt.
-<out/003_r_0_10300000_L.pdf, id=98, 66.02768pt x 60.75298pt>
+<out/003_r_0_10300000_L.pdf, id=88, 43.88094pt x 9.5286pt>
 File: out/003_r_0_10300000_L.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_L.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_L.pdf  used on input line 6.
-(pdftex.def)             Requested size: 66.02751pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/003_r_0_10300000_L width=66.02751pt, page=143.40126pt
+out/003_r_0_10300000_L width=43.88081pt, page=143.40126pt
 File: out/003_r_0_10300000_L.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_L.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_L.pdf  used on input line 6.
-(pdftex.def)             Requested size: 66.02751pt x 60.7528pt.
-<out/003_r_0_10300000_K.pdf, id=99, 91.18867pt x 60.75298pt>
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/003_r_0_10300000_K.pdf, id=89, 43.88094pt x 9.5286pt>
 File: out/003_r_0_10300000_K.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_K.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_K.pdf  used on input line 6.
-(pdftex.def)             Requested size: 91.18843pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/003_r_0_10300000_K width=91.18843pt, page=143.40126pt
+out/003_r_0_10300000_K width=43.88081pt, page=143.40126pt
 File: out/003_r_0_10300000_K.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_K.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_K.pdf  used on input line 6.
-(pdftex.def)             Requested size: 91.18843pt x 60.7528pt.
-<out/003_r_0_10300000_R.pdf, id=100, 68.80003pt x 60.75298pt>
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/003_r_0_10300000_R.pdf, id=90, 43.88094pt x 9.5286pt>
 File: out/003_r_0_10300000_R.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_R.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_R.pdf  used on input line 6.
-(pdftex.def)             Requested size: 68.79985pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/003_r_0_10300000_R width=68.79985pt, page=143.40126pt
+out/003_r_0_10300000_R width=43.88081pt, page=143.40126pt
 File: out/003_r_0_10300000_R.pdf Graphic file (type pdf)
 <use out/003_r_0_10300000_R.pdf>
 Package pdftex.def Info: out/003_r_0_10300000_R.pdf  used on input line 6.
-(pdftex.def)             Requested size: 68.79985pt x 60.7528pt.
-<out/004_r_0_11300100_L.pdf, id=101, 66.02768pt x 60.75298pt>
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/004_r_0_11300100_L.pdf, id=91, 43.88094pt x 9.5286pt>
 File: out/004_r_0_11300100_L.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_L.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_L.pdf  used on input line 6.
-(pdftex.def)             Requested size: 66.02751pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/004_r_0_11300100_L width=66.02751pt, page=143.40126pt
+out/004_r_0_11300100_L width=43.88081pt, page=143.40126pt
 File: out/004_r_0_11300100_L.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_L.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_L.pdf  used on input line 6.
-(pdftex.def)             Requested size: 66.02751pt x 60.7528pt.
-<out/004_r_0_11300100_K.pdf, id=102, 91.18867pt x 60.75298pt>
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/004_r_0_11300100_K.pdf, id=92, 43.88094pt x 9.5286pt>
 File: out/004_r_0_11300100_K.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_K.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_K.pdf  used on input line 6.
-(pdftex.def)             Requested size: 91.18843pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/004_r_0_11300100_K width=91.18843pt, page=143.40126pt
+out/004_r_0_11300100_K width=43.88081pt, page=143.40126pt
 File: out/004_r_0_11300100_K.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_K.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_K.pdf  used on input line 6.
-(pdftex.def)             Requested size: 91.18843pt x 60.7528pt.
-<out/004_r_0_11300100_R.pdf, id=103, 68.80003pt x 60.75298pt>
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/004_r_0_11300100_R.pdf, id=93, 43.88094pt x 9.5286pt>
 File: out/004_r_0_11300100_R.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_R.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_R.pdf  used on input line 6.
-(pdftex.def)             Requested size: 68.79985pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
 
-out/004_r_0_11300100_R width=68.79985pt, page=143.40126pt
+out/004_r_0_11300100_R width=43.88081pt, page=143.40126pt
 File: out/004_r_0_11300100_R.pdf Graphic file (type pdf)
 <use out/004_r_0_11300100_R.pdf>
 Package pdftex.def Info: out/004_r_0_11300100_R.pdf  used on input line 6.
-(pdftex.def)             Requested size: 68.79985pt x 60.7528pt.
+(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
+<out/005_r_0_combined.pdf, id=94, 186.6975pt x 123.46124pt>
+File: out/005_r_0_combined.pdf Graphic file (type pdf)
+<use out/005_r_0_combined.pdf>
+Package pdftex.def Info: out/005_r_0_combined.pdf  used on input line 6.
+(pdftex.def)             Requested size: 186.69704pt x 123.46092pt.
+
+out/005_r_0_combined width=186.69704pt, page=512.14963pt
+File: out/005_r_0_combined.pdf Graphic file (type pdf)
+<use out/005_r_0_combined.pdf>
+Package pdftex.def Info: out/005_r_0_combined.pdf  used on input line 6.
+(pdftex.def)             Requested size: 186.69704pt x 123.46092pt.
  [2 <./out/000_g_0_10300000.pdf> <./out/000_g_0_11310100.pdf> <./out/001_g_1_10
 300000.pdf> <./out/001_g_1_11310100.pdf> <./out/003_r_0_10300000_L.pdf> <./out/
-003_r_0_10300000_K.pdf> <./out/003_r_0_10300000_R.pdf>]
-<out/005_r_0_combined.pdf, id=147, 223.83624pt x 214.8025pt>
-File: out/005_r_0_combined.pdf Graphic file (type pdf)
-<use out/005_r_0_combined.pdf>
-Package pdftex.def Info: out/005_r_0_combined.pdf  used on input line 6.
-(pdftex.def)             Requested size: 223.8357pt x 214.80197pt.
+003_r_0_10300000_K.pdf> <./out/003_r_0_10300000_R.pdf> <./out/004_r_0_11300100_
+L.pdf> <./out/004_r_0_11300100_K.pdf> <./out/004_r_0_11300100_R.pdf>] (./out/00
+6_r_0_constraints.tex)
+<out/008_dg_0_10100.pdf, id=145, 41.15877pt x 15.82913pt>
+File: out/008_dg_0_10100.pdf Graphic file (type pdf)
+<use out/008_dg_0_10100.pdf>
+Package pdftex.def Info: out/008_dg_0_10100.pdf  used on input line 7.
+(pdftex.def)             Requested size: 41.15866pt x 15.82907pt.
 
-out/005_r_0_combined width=223.8357pt, page=512.14963pt
-File: out/005_r_0_combined.pdf Graphic file (type pdf)
-<use out/005_r_0_combined.pdf>
-Package pdftex.def Info: out/005_r_0_combined.pdf  used on input line 6.
-(pdftex.def)             Requested size: 223.8357pt x 214.80197pt.
+out/008_dg_0_10100 width=41.15866pt, page=512.14963pt
+File: out/008_dg_0_10100.pdf Graphic file (type pdf)
+<use out/008_dg_0_10100.pdf>
+Package pdftex.def Info: out/008_dg_0_10100.pdf  used on input line 7.
+(pdftex.def)             Requested size: 41.15866pt x 15.82907pt.
+)
 
-(./out/006_r_0_constraints.tex)
-<out/008_r_1_10300000_L.pdf, id=148, 43.88094pt x 9.5286pt>
-File: out/008_r_1_10300000_L.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_L.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_L.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/008_r_1_10300000_L width=43.88081pt, page=143.40126pt
-File: out/008_r_1_10300000_L.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_L.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_L.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-<out/008_r_1_10300000_K.pdf, id=149, 43.88094pt x 9.5286pt>
-File: out/008_r_1_10300000_K.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_K.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_K.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/008_r_1_10300000_K width=43.88081pt, page=143.40126pt
-File: out/008_r_1_10300000_K.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_K.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_K.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-<out/008_r_1_10300000_R.pdf, id=150, 43.88094pt x 9.5286pt>
-File: out/008_r_1_10300000_R.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_R.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_R.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/008_r_1_10300000_R width=43.88081pt, page=143.40126pt
-File: out/008_r_1_10300000_R.pdf Graphic file (type pdf)
-<use out/008_r_1_10300000_R.pdf>
-Package pdftex.def Info: out/008_r_1_10300000_R.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
- [3 <./out/004_r_0_11300100_L.pdf> <./out/004_r_0_11300100_K.pdf> <./out/004_r_
-0_11300100_R.pdf> <./out/005_r_0_combined.pdf>]
-<out/009_r_1_11300100_L.pdf, id=182, 43.88094pt x 9.5286pt>
-File: out/009_r_1_11300100_L.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_L.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_L.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/009_r_1_11300100_L width=43.88081pt, page=143.40126pt
-File: out/009_r_1_11300100_L.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_L.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_L.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-<out/009_r_1_11300100_K.pdf, id=183, 43.88094pt x 9.5286pt>
-File: out/009_r_1_11300100_K.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_K.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_K.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/009_r_1_11300100_K width=43.88081pt, page=143.40126pt
-File: out/009_r_1_11300100_K.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_K.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_K.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-<out/009_r_1_11300100_R.pdf, id=184, 43.88094pt x 9.5286pt>
-File: out/009_r_1_11300100_R.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_R.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_R.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-
-out/009_r_1_11300100_R width=43.88081pt, page=143.40126pt
-File: out/009_r_1_11300100_R.pdf Graphic file (type pdf)
-<use out/009_r_1_11300100_R.pdf>
-Package pdftex.def Info: out/009_r_1_11300100_R.pdf  used on input line 7.
-(pdftex.def)             Requested size: 43.88081pt x 9.52855pt.
-<out/010_r_1_combined.pdf, id=185, 186.6975pt x 123.46124pt>
-File: out/010_r_1_combined.pdf Graphic file (type pdf)
-<use out/010_r_1_combined.pdf>
-Package pdftex.def Info: out/010_r_1_combined.pdf  used on input line 7.
-(pdftex.def)             Requested size: 186.69704pt x 123.46092pt.
-
-out/010_r_1_combined width=186.69704pt, page=512.14963pt
-File: out/010_r_1_combined.pdf Graphic file (type pdf)
-<use out/010_r_1_combined.pdf>
-Package pdftex.def Info: out/010_r_1_combined.pdf  used on input line 7.
-(pdftex.def)             Requested size: 186.69704pt x 123.46092pt.
-
-(./out/011_r_1_constraints.tex)
-<out/013_dg_0_10100.pdf, id=186, 161.97714pt x 34.97568pt>
-File: out/013_dg_0_10100.pdf Graphic file (type pdf)
-<use out/013_dg_0_10100.pdf>
-Package pdftex.def Info: out/013_dg_0_10100.pdf  used on input line 8.
-(pdftex.def)             Requested size: 161.97673pt x 34.97557pt.
-
-out/013_dg_0_10100 width=161.97673pt, page=512.14963pt
-File: out/013_dg_0_10100.pdf Graphic file (type pdf)
-<use out/013_dg_0_10100.pdf>
-Package pdftex.def Info: out/013_dg_0_10100.pdf  used on input line 8.
-(pdftex.def)             Requested size: 161.97673pt x 34.97557pt.
-<out/014_g_2_10300000.pdf, id=187, 146.19818pt x 147.46191pt>
-File: out/014_g_2_10300000.pdf Graphic file (type pdf)
-<use out/014_g_2_10300000.pdf>
-Package pdftex.def Info: out/014_g_2_10300000.pdf  used on input line 10.
-(pdftex.def)             Requested size: 146.19781pt x 147.46153pt.
-<out/014_g_2_11310100.pdf, id=188, 146.19818pt x 147.46191pt>
-File: out/014_g_2_11310100.pdf Graphic file (type pdf)
-<use out/014_g_2_11310100.pdf>
-Package pdftex.def Info: out/014_g_2_11310100.pdf  used on input line 10.
-(pdftex.def)             Requested size: 146.19781pt x 147.46153pt.
- [4 <./out/008_r_1_10300000_L.pdf> <./out/008_r_1_10300000_K.pdf> <./out/008_r_
-1_10300000_R.pdf> <./out/009_r_1_11300100_L.pdf> <./out/009_r_1_11300100_K.pdf>
- <./out/009_r_1_11300100_R.pdf> <./out/010_r_1_combined.pdf> <./out/013_dg_0_10
-100.pdf> <./out/014_g_2_10300000.pdf>]) 
 AED: lastpage setting LastPage
-[5 <./out/014_g_2_11310100.pdf>]
+[3 <./out/005_r_0_combined.pdf> <./out/008_dg_0_10100.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
- (summary/summary.aux)
+
+(summary/summary.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `summary.out' has not changed.
@@ -2089,29 +1997,24 @@ Package rerunfilecheck Info: File `summary.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) ) 
 Here is how much of TeX's memory you used:
- 43499 strings out of 492982
- 1015604 string characters out of 6134895
- 1226428 words of memory out of 5000000
- 46373 multiletter control sequences out of 15000+600000
- 605152 words of font info for 81 fonts, out of 8000000 for 9000
+ 43447 strings out of 492982
+ 1014042 string characters out of 6134895
+ 1225428 words of memory out of 5000000
+ 46331 multiletter control sequences out of 15000+600000
+ 598530 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,96p,10475b,807s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr
-/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/ty
-pe1/public/tex-gyre/qtmr.pfb>
-Output written on summary/summary.pdf (6 pages, 318036 bytes).
+ 64i,12n,96p,10475b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/
+enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.
+pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb>
+Output written on summary/summary.pdf (4 pages, 276334 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

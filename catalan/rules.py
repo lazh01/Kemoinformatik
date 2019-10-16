@@ -1,5 +1,5 @@
 pushFilePrefix("rules/")
-mark = ruleGML("markForConversion.gml")
+#mark = ruleGML("markForConversion.gml")
 removeR = ruleGML("removeSingleR.gml")
 #reattachExternal = ruleGML("reattachExternalEdge.gml")
 #removeAttached = ruleGML("removeAlreadyAttached.gml")

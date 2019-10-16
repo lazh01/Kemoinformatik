@@ -1,0 +1,5 @@
+digraph g {
+
+// id = 0, graphName = Start
+"0-0" [ shape=ellipse label="Start" ];
+}

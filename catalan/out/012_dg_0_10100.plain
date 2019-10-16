@@ -1,5 +1,0 @@
-graph 1 2.4133 0.72165
-node "0-0" 0.37913 0.47165 0.75827 0.5 Start solid ellipse black lightgrey
-node "1-0" 1.8627 0.25 1.1013 0.5 "p_{0,0}" solid ellipse black lightgrey
-edge "0-0" "1-0" 4 0.74966 0.41629 0.88502 0.39607 1.0426 0.37252 1.1959 0.34962 "r_{0}" 1.0839 0.27879 solid black
-stop
