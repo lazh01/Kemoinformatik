@@ -11,7 +11,7 @@ rule [
 	]			
 	constrainAdj [
 		id 0
-		op =
+		op "="
 		count 0
 		nodeLabels [ label "R" ]
 	]
