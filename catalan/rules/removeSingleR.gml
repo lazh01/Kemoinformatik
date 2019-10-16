@@ -15,6 +15,6 @@ rule [
 		id 1
 		op "="
 		count 0
-		nodeLabels [ label "R" label "O" ]
+		nodeLabels [ label "R" label "0" ]
 	]			
 ]
